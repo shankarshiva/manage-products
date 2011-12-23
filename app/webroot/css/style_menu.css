@@ -1,0 +1,105 @@
+#menu_list 
+{
+  width: 15em; /* set width of menu */
+  background: #eee;
+} 
+
+	#menu_list ul 
+	{ /* remove bullets and list indents */
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+/* style, color and size links and headings to suit */
+	#menu_list a, #menu_list h2 
+	{
+		font: bold 11px/16px arial, helvetica, sans-serif;
+		display: block;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #ccc #888 #555 #bbb;
+		margin: 0;
+		padding: 2px 3px;
+	}
+
+	#menu_list h2 
+	{
+		color: #fff;
+		background: #000;
+		text-transform: uppercase;
+	}
+
+	#menu_list a 
+	{
+		color: #000;
+		background: #E7F2F8;
+		text-decoration: none;
+	}
+
+		#menu_list a:hover 
+		{
+			color: #FFF;
+			background: #297EBF;
+		}
+
+	#menu_list li 
+	{
+		/* make the list elements a containing block for the nested lists */
+		position: relative;
+	} 
+
+	#menu_list ul ul ul 
+	{
+		position: absolute;
+		top: 0;
+		left: 100%; /* to position them to the right of their containing block */
+		width: 100%; /* width is based on the containing block */
+	}
+
+		div#menu_list ul ul ul,
+		div#menu_list ul ul li:hover ul ul
+		{
+			display: none;
+		}
+
+			div#menu_list ul ul li:hover ul,
+			div#menu_list ul ul ul li:hover ul
+			{
+				display: block;
+			}
+
+/* style, color and size links and headings to suit */
+#recently_added a, #recently_added h2 
+{
+	font: bold 11px/16px arial, helvetica, sans-serif;
+	display: block;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc #888 #555 #bbb;
+	margin: 0;
+	padding: 2px 3px;
+}
+
+#recently_added h2 
+{
+	color: #fff;
+	background: #000;
+	text-transform: uppercase;
+}
+
+<!--[if IE]>
+<style type="text/css" media="screen">
+body 
+{
+	behavior: url(csshover.htc);
+	font-size: 100%;
+}
+
+#menu_list ul li 
+{
+	float: left; width: 100%;
+}
+
+</style>
+<![endif]-->
