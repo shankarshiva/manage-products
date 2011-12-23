@@ -12,7 +12,7 @@ Import manage_products.sql to the newly created database
 Give the database user name, password and database name in app/Config/database.php
 
 Download the files from below url:
-https://github.com/reddyShiva/manage-products/downloads
+https://github.com/shankarshiva/manage-products/downloads
 
 Extract the above downloaded zip file to the virtual directory
 Give the project folder name to HTTP_ROOT variable defined in app/Config/bootstrap.php
@@ -21,6 +21,14 @@ Once extract the folder:
 1.Give the full permission to app/tmp folder.
 2.Give the full permission to app/webroot/img folder (this contain sub folders)
  
+Environment Details
+-------------------
+PHP Version : 5.3.6
+Apache Version : Apache/2.2.20 (Ubuntu) 
+Mysql Version : 5.1.58
+Cakephp Version : 2.0
+ubuntu Version : 11.10
+
 ======================================================================
 Usage
 ------
