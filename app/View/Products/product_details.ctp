@@ -4,7 +4,7 @@ $productName = '';
 $productDesc = '';
 $productImageArray = array();
 
-foreach ($productList as $product) 
+foreach ($productDetails as $product) 
 {
   $productName = $product['Product']['product_name'];
   $productDesc = $product['Product']['product_desc'];
@@ -24,7 +24,7 @@ foreach ($productList as $product)
         ?>
         &raquo; 
         <?php 
-          echo $this->Html->link(__($productCatName, true), array('controller'=>'Products', 'action' => 'categoryList', $productCatId));
+          echo $this->Html->link(__($productCatName, true), array('controller'=>'Products', 'action' => 'subCategoryList', $productCatId));
         ?>
         <?php 
         if(!empty($productSubCatName))

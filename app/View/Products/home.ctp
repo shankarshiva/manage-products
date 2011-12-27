@@ -5,7 +5,7 @@
       <!-- Left Part Starts Here -->
       <td class="userLeftPart" valign="top" align="center" >
         <?php 
-        echo $this->Element('category_left_menu'); 
+          echo $this->Element('category_left_menu'); 
         ?>
       </td>
       <!-- Left Part Ends Here -->

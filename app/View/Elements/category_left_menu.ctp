@@ -17,7 +17,7 @@
           ?>
           <li>
           <?php
-            echo $this->Html->link(__($categoryName, true), array('controller'=>'Products', 'action' => 'categoryList', $categoryId));
+            echo $this->Html->link(__($categoryName, true), array('controller'=>'Products', 'action' => 'subCategoryList', $categoryId));
           ?>
             <ul>
             <?php

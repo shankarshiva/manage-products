@@ -24,10 +24,21 @@
         	<div class="top_links">
         	  <div style="float:left;">
         	     <?php 
-        	       echo __('Welcome Guest!'); 
+        	     if(!AuthComponent::User('id'))
+        	     {
+        	       echo __('Welcome Guest!');
+        	     }
+        	     else
+        	     {
+        	       echo __('Welcome ').AuthComponent::User('name');
+        	     }
         	     ?>
         	  </div>
         	</div>
+        	<?php 
+    	     if(AuthComponent::User('id'))
+    	     {
+    	     ?>
         	<table cellpadding="0" cellspacing="0" width="100%" border="0">				
         		<tr>
         			<td class="spacer20"></td>
@@ -52,16 +63,31 @@
         			<td class="spacer"></td>
         		</tr>
         	</table>
+        	<?php }?>
         </div>
       </div>
       <!-- Header Part Ends Here -->
       <!-- Top menu Part Starts Here -->
       <div class="top_menu"><div class="top_menuWrap">
       	<ul>	
-      		<li class="home"><a href="<?php echo HTTP_HOST;?>/products/home">Home</a></li>					
+      	<?php if(!AuthComponent::User('id')) 
+      	{
+      	  ?>
+          <li class="home"><a href="<?php echo HTTP_HOST;?>/Users/login">Login</a></li>
+      	  <?php 
+      	}
+      	else
+      	{
+      	  ?>
+      	  <li class="home"><a href="<?php echo HTTP_HOST;?>/Products/home">Home</a></li>			
+      		<li class="home"><a href="<?php echo HTTP_HOST;?>/Users/logout">Logout</a></li>	
+      	  <?php 
+      	}
+      	?>
       	</ul>
       </div>
     </div>
+    <div style="text-align:center;"><?php echo $this->Session->flash();?></div>
     <!-- Top menu Part Ends Here -->
     <div id="content">
     	<?php 

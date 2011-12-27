@@ -78,7 +78,7 @@
         else
         {
         ?>
-        <br><li style="text-align:center;"><strong><?php echo __('--No Resutls Found--'); ?></strong></li>
+        <br><li style="text-align:center;"><strong><?php echo __('--No Results Found--'); ?></strong></li>
         <?php
         }
         ?>

@@ -105,7 +105,6 @@ class ProductsController extends AppController
 	
   }
 
- 
   /**
   * Function for displaying product details
   *
@@ -127,8 +126,8 @@ class ProductsController extends AppController
     // have to user before filter
     $whereCondition = " Product.id = '".$productId."' ";
     $conditions[] = $whereCondition;
-    $productList = $this->Product->getSearchResults($conditions);
-    $this->set('productList', $productList);
+    $productDetails = $this->Product->getSearchResults($conditions);
+    $this->set('productDetails', $productDetails);
 
     // These setting for breadcrump.
     $productCatNameArray = $this->Product->getProductCategories($productId);
@@ -151,7 +150,9 @@ class ProductsController extends AppController
   * @access public
   */ 
 
-  public function categoryList($catId = null)
+  //NOTE:  change this to subCategoryList
+  
+  public function subCategoryList($catId = null)
   {
 
 		// Setting the page title
@@ -163,14 +164,16 @@ class ProductsController extends AppController
 			$this->redirect('home');
 	  }
 	
-		// Getting category list.
+		// Getting category list for left menu.
 		$categoryList = $this->Category->getCategoryList();
+		
 		// Passing category list to views
 		$this->set('categoryList', $categoryList);
 	
 		// Get category name
 		$categoryNameArray = $this->Category->getCategoryName($catId);
-		// Passing the category name to view
+		
+		// Passing the category name to view for breadcrumb
 	  $this->set('selectedCategoryName', $categoryNameArray['Category']['category_name']);
 	
 		// getting subcategories
@@ -217,6 +220,7 @@ class ProductsController extends AppController
 	
 		// Getting subcategory name and passing to views
 		$subCatArray = $this->SubCategory->getSubCategoryName($subCatId);
+		
 	  $this->set('selectedSubCategoryName', $subCatArray['SubCategory']['sub_category_name']);
 	  $this->set('selectedCategoryName', $subCatArray['Category']['category_name']);
 	  $this->set('selectedCategoryId', $subCatArray['Category']['id']);

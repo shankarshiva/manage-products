@@ -14,7 +14,7 @@
     <td valign="top" class="mainRight" id="bodypart2">
       <div class="breadcrumb">
         <a href="<?php echo HTTP_HOST?>/products/home"><?php echo __('Home'); ?></a>
-        &raquo; <?php echo $this->Html->link(__($selectedCategoryName, true), array('controller'=>'Products', 'action' => 'categoryList', $selectedCategoryId));?>
+        &raquo; <?php echo $this->Html->link(__($selectedCategoryName, true), array('controller'=>'Products', 'action' => 'subCategoryList', $selectedCategoryId));?>
         &raquo;  <?php echo $selectedSubCategoryName;?>
       </div>
       <div class="subHeading"> <?php echo __('Products'); ?> </div>
@@ -83,7 +83,7 @@
         else
         {
         ?>
-        <br><li style="text-align:center;"><strong>--No Resutls Found--</strong></li><br>
+        <br><li style="text-align:center;"><strong>--No Results Found--</strong></li><br>
         <?php
         }
         ?>

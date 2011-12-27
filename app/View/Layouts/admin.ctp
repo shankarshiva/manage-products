@@ -20,11 +20,12 @@
   <body>
     <div id="header">
       <?php 
-        echo $this->element('header'); 
+        echo $this->element('admin_header'); 
       ?>
     </div>
     <div id="content">
       <?php 
+        echo $this->Session->flash();
         echo $content_for_layout;
       ?>
     </div>

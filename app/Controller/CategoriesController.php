@@ -2,7 +2,7 @@
 class CategoriesController extends AppController
 {
 
-  var $name = 'Categories';
+  //var $name = 'Categories';
 
   /**
 	 * Used components
@@ -25,12 +25,20 @@ class CategoriesController extends AppController
     'Functions'
   );
 
+  var $uses = array(
+      'Category',
+      'User'
+  );
+  
+  
   /**
 	 * Function for categories display
 	 *
 	 */
   function admin_index()
   {
+
+    //$this->adminCheckLogin();
     // setting the layout for admin
     $this->layout = 'admin';
     

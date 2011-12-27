@@ -111,6 +111,7 @@
  *
  */
 Configure::write('Routing.prefixes', array('admin'));
+//Configure::write('Routing.admin', 'admin');
 
 /**
  * Turn off all caching application-wide.
@@ -173,13 +174,21 @@ Configure::write('Routing.prefixes', array('admin'));
  *
  */
 	Configure::write('Session', array(
-		'defaults' => 'php'
+		'defaults' => 'cake'
 	));
 
 /**
  * The level of CakePHP security.
  */
-	Configure::write('Security.level', 'medium');
+	//Configure::write('Security.level', 'medium');
+	Configure::write('Security.level', 'low');
+	
+	Configure::write('Session', array(
+	    'defaults' => 'php',
+	    'cookie'=>'CAKEPHP',
+	    'cookieTimeout'=>1000,
+	    'checkAgent'=>false
+	));
 
 /**
  * A random string used in security hashing methods.
@@ -189,7 +198,7 @@ Configure::write('Routing.prefixes', array('admin'));
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-	Configure::write('Security.cipherSeed', '76859309657453542496749683646');
+	Configure::write('Security.cipherSeed', '76859309657453542496749689543');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).

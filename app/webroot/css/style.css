@@ -1170,3 +1170,63 @@ ul.featuredProducts li, ul.nonfeaturedProducts li
 		font-size:14px;
 		font-weight:bold;
 	}
+
+#flashMessage
+{
+  color: #ff0000;
+  padding: 10px 0 0 20px;
+}
+
+#login 
+{
+  margin:10px 0px 0px 0px;
+  border:1px solid #666;
+  background: #f6f5f5;
+  padding:20px;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 13px; color: #333;
+  width:380px;
+}
+
+
+p.error 
+{
+  padding-left:20px;
+  display:block;
+  background-image: url(../images/icons/exclamation.gif);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  color: #900;
+}
+.black_button 
+{
+  margin: 0px 28px 0 0;
+  padding: 0px;
+  border: 0px;
+  background-color:#3787ac;
+  color: #FFF;
+  display:block;
+  float: right;
+  width:90px;
+  height: 30px;   
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.black_button:hover
+{
+background-color: #257296;
+}
+
+.inputText 
+{
+  padding:7px;
+  border:1px solid #999;
+  font-size:16px;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #333;
+  width:270px;
+  margin:5px;
+  background:#FFFFF8;
+}
