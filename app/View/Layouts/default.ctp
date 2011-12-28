@@ -31,11 +31,7 @@
         		<tr>
         			<td class="spacer20">
         			<?php
-          			echo $this->Html->link(
-        			    $this->Html->image('/images/logo.png', array('alt'=> '', 'border' => '0')),
-        			    array('controller'=>'Products', 'action' => 'home'),
-        			    array('escape' => false)
-          			);
+        			    echo $this->Html->image('/images/logo.png', array('alt'=> '', 'border' => '0'));
         	    ?>
         	    </td>
         	    <?php 

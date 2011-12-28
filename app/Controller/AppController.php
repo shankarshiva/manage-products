@@ -59,19 +59,13 @@ class AppController extends Controller
 
   function beforeFilter()
   {
-    
-    print_r($this->params['lang']);
-    
-    if(isset($this->params['lang'])){
-      $this->Session->write('Config.language', $this->params['lang']);
-    }
-    
+   
     if (empty($this->params[Configure::read('Routing.admin')]) || !$this->params[Configure::read('Routing.admin')]) {
-      $this->Auth->allow('register',$this->params['action']);
+      $this->Auth->allow('signup', $this->params['action']);
     }
     else
     {
-      $this->Auth->allow('register');
+      $this->Auth->allow('signup');
     }
     
     $this->Auth->loginRedirect = array(
