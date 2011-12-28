@@ -6,14 +6,14 @@ class ProductsController extends AppController
   *
   * @var unknown_type
   */
-  var $name = "Products";
+  public $name = "Products";
   /**
   * Used helpers
   *
   * @var array
   * @access public
   */
-  var $helpers = array(
+  public $helpers = array(
     'Form',
     'Html',
   	'Functions'
@@ -26,7 +26,7 @@ class ProductsController extends AppController
   * @access public
   */
 
-  var $uses = array(
+  public $uses = array(
     'Product',
     'Category',
     'SubCategory'
@@ -253,7 +253,7 @@ class ProductsController extends AppController
    * Function for add the products
    *
    */
-  function admin_add() 
+  public function admin_add() 
   {
 
   	// setting the layout for admin
@@ -295,7 +295,7 @@ class ProductsController extends AppController
    * Function for edit the products
    *
    */
-  function admin_edit($id = null) 
+  public function admin_edit($id = null) 
   {
   	// setting the layout for admin
   	$this->layout = 'admin';
@@ -350,7 +350,7 @@ class ProductsController extends AppController
    * Function for delete the products
    *
    */
-  function admin_delete($id = null) 
+  public function admin_delete($id = null) 
   {
   	// setting the layout for admin
   	$this->layout = 'admin';
@@ -376,7 +376,7 @@ class ProductsController extends AppController
   /*  AJAX Function for updating while selecting the category then will get subcategories
    *  against selected category
    */
-  function getSubCatList()
+  public function getSubCatList()
   {
 		$productId = $_POST['productId'];
 	

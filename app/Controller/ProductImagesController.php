@@ -1,14 +1,14 @@
 <?php
 class ProductImagesController extends AppController {
 
-	var $name = 'ProductImages';
+	public $name = 'ProductImages';
 
 	/**
 	 * Used components
 	 *
 	 */
 	
-	var $components = array(
+	public $components = array(
 			'Image'
 	);
 	
@@ -18,7 +18,7 @@ class ProductImagesController extends AppController {
 	 * @var array
 	 * @access public
 	 */
-	var $helpers = array(
+	public $helpers = array(
 			'Form',
 			'Html',
 			'Functions'
@@ -28,7 +28,7 @@ class ProductImagesController extends AppController {
 	 * Function for display the product images
 	 *
 	 */
-	function admin_index() 
+	public function admin_index() 
 	{
 		// Setting the layout for admin
 		$this->layout = 'admin';
@@ -40,7 +40,7 @@ class ProductImagesController extends AppController {
 	 * Function for add the product images
 	 *
 	 */
-	function admin_add() 
+	public function admin_add() 
 	{
 		// Setting the layout for admin
 		$this->layout = 'admin';
@@ -82,7 +82,7 @@ class ProductImagesController extends AppController {
 	 * Function for edit the product images
 	 *
 	 */
-	function admin_edit($id = null) 
+	public function admin_edit($id = null) 
 	{
 		// setting the layout for admin
 		$this->layout = 'admin';
@@ -167,7 +167,7 @@ class ProductImagesController extends AppController {
 	 * Function for delete the product images
 	 *
 	 */
-	function admin_delete($id = null) 
+	public function admin_delete($id = null) 
 	{
 		// setting the layout for admin
 		$this->layout = 'admin';

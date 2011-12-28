@@ -54,7 +54,7 @@ class UsersController extends AppController
     }
   }
 
-  function logout()
+  public function logout()
   {
     $this->redirect($this->Auth->logout());
   }
@@ -161,7 +161,7 @@ class UsersController extends AppController
    * Function for admin logout
    *
    */
-  function admin_logout()
+  public function admin_logout()
   {
     $this->layout = 'admin';
     $this->Session->delete('AdminUser');

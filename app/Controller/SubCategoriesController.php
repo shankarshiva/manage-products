@@ -2,14 +2,14 @@
 class SubCategoriesController extends AppController 
 {
 
-	var $name = 'SubCategories';
+	public $name = 'SubCategories';
 
 	/**
 	 * Used components
 	 *
 	 */
 	
-	var $components = array(
+	public $components = array(
 			'Image'
 	);
 	
@@ -19,7 +19,7 @@ class SubCategoriesController extends AppController
 	 * @var array
 	 * @access public
 	 */
-	var $helpers = array(
+	public $helpers = array(
 			'Form',
 			'Html',
 			'Functions'
@@ -29,7 +29,7 @@ class SubCategoriesController extends AppController
 	 * Function for display the sub categories
 	 *
 	 */
-	function admin_index() 
+	public function admin_index() 
 	{
 		// Setting the layout for admin
 		$this->layout = 'admin';
@@ -41,7 +41,7 @@ class SubCategoriesController extends AppController
 	 * Function for add the sub categories
 	 *
 	 */
-	function admin_add() 
+	public function admin_add() 
 	{
 		// Setting the layout for admin
 		$this->layout = 'admin';
@@ -84,7 +84,7 @@ class SubCategoriesController extends AppController
 	 * Function for edit the sub categories
 	 *
 	 */
-	function admin_edit($id = null) 
+	public function admin_edit($id = null) 
 	{
 		// Setting the layout for admin
 		$this->layout = 'admin';
@@ -168,7 +168,7 @@ class SubCategoriesController extends AppController
 	 * Function for delete the sub categories
 	 *
 	 */
-	function admin_delete($id = null) 
+	public function admin_delete($id = null) 
 	{
 		// Setting the layout for admin
 		$this->layout = 'admin';
