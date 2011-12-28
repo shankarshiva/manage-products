@@ -1,0 +1,2101 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-12-28 03:46+0530\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /lib/Cake/Console/ConsoleErrorHandler.php:57
+msgid "<error>Error:</error> %s\n%s"
+msgstr ""
+
+#: /lib/Cake/Console/ConsoleErrorHandler.php:81
+msgid "%s in [%s, line %s]"
+msgstr ""
+
+#: /lib/Cake/Console/ConsoleErrorHandler.php:82
+msgid "<error>%s Error:</error> %s\n"
+msgstr ""
+
+#: /lib/Cake/Console/ConsoleInputArgument.php:97
+msgid " <comment>(optional)</comment>"
+msgstr ""
+
+#: /lib/Cake/Console/ConsoleInputArgument.php:100
+#: /lib/Cake/Console/ConsoleInputOption.php:130
+msgid " <comment>(choices: %s)</comment>"
+msgstr ""
+
+#: /lib/Cake/Console/ConsoleInputArgument.php:144
+msgid "\"%s\" is not a valid value for %s. Please use one of \"%s\""
+msgstr ""
+
+#: /lib/Cake/Console/ConsoleInputOption.php:95
+msgid "Short options must be one letter."
+msgstr ""
+
+#: /lib/Cake/Console/ConsoleInputOption.php:127
+msgid " <comment>(default: %s)</comment>"
+msgstr ""
+
+#: /lib/Cake/Console/ConsoleInputOption.php:190
+msgid "\"%s\" is not a valid value for --%s. Please use one of \"%s\""
+msgstr ""
+
+#: /lib/Cake/Console/ConsoleOptionParser.php:148
+msgid "Display this help."
+msgstr ""
+
+#: /lib/Cake/Console/ConsoleOptionParser.php:155
+msgid "Enable verbose output."
+msgstr ""
+
+#: /lib/Cake/Console/ConsoleOptionParser.php:159
+msgid "Enable quiet output."
+msgstr ""
+
+#: /lib/Cake/Console/ConsoleOptionParser.php:482
+msgid "Missing required arguments. %s is required."
+msgstr ""
+
+#: /lib/Cake/Console/ConsoleOptionParser.php:565
+msgid "Unknown short option `%s`"
+msgstr ""
+
+#: /lib/Cake/Console/ConsoleOptionParser.php:581
+msgid "Unknown option `%s`"
+msgstr ""
+
+#: /lib/Cake/Console/ConsoleOptionParser.php:633
+msgid "Too many arguments."
+msgstr ""
+
+#: /lib/Cake/Console/HelpFormatter.php:69
+msgid "<info>Usage:</info>"
+msgstr ""
+
+#: /lib/Cake/Console/HelpFormatter.php:74
+msgid "<info>Subcommands:</info>"
+msgstr ""
+
+#: /lib/Cake/Console/HelpFormatter.php:85
+msgid "To see help on a subcommand use <info>`cake %s [subcommand] --help`</info>"
+msgstr ""
+
+#: /lib/Cake/Console/HelpFormatter.php:92
+msgid "<info>Options:</info>"
+msgstr ""
+
+#: /lib/Cake/Console/HelpFormatter.php:107
+msgid "<info>Arguments:</info>"
+msgstr ""
+
+#: /lib/Cake/Console/Shell.php:209
+msgid "<info>Welcome to CakePHP %s Console</info>"
+msgstr ""
+
+#: /lib/Cake/Console/Shell.php:211
+msgid "App : %s"
+msgstr ""
+
+#: /lib/Cake/Console/Shell.php:212
+#: /lib/Cake/Console/Command/Task/PluginTask.php:57
+#: /lib/Cake/Console/Command/Task/TestTask.php:97
+msgid "Path: %s"
+msgstr ""
+
+#: /lib/Cake/Console/Shell.php:598
+msgid "<error>Error:</error> %s"
+msgstr ""
+
+#: /lib/Cake/Console/Shell.php:636
+msgid "<warning>File `%s` exists</warning>"
+msgstr ""
+
+#: /lib/Cake/Console/Shell.php:637
+msgid "Do you want to overwrite?"
+msgstr ""
+
+#: /lib/Cake/Console/Shell.php:640
+msgid "<error>Quitting</error>."
+msgstr ""
+
+#: /lib/Cake/Console/Shell.php:643
+msgid "Skip `%s`"
+msgstr ""
+
+#: /lib/Cake/Console/Shell.php:647
+msgid "Creating file %s"
+msgstr ""
+
+#: /lib/Cake/Console/Shell.php:654
+msgid "<success>Wrote</success> `%s`"
+msgstr ""
+
+#: /lib/Cake/Console/Shell.php:657
+msgid "<error>Could not write to `%s`</error>."
+msgstr ""
+
+#: /lib/Cake/Console/Shell.php:674
+msgid "PHPUnit is not installed. Do you want to bake unit test files anyway?"
+msgstr ""
+
+#: /lib/Cake/Console/Shell.php:680
+msgid "You can download PHPUnit from %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:73
+msgid "Error: Your current Cake configuration is set to an ACL implementation other than DB."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:74
+msgid "Please change your core config to reflect your decision to use DbAcl before attempting to use this script"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:76
+msgid "Current ACL Classname: %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:84
+#: /lib/Cake/Console/Command/BakeShell.php:82
+#: /lib/Cake/Console/Command/I18nShell.php:55
+msgid "Your database configuration was not found. Take a moment to create one."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:129
+msgid "/ can not be used as an alias!"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:129
+msgid "\t/ is the root, please supply a sub alias"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:135
+msgid "<success>New %s</success> '%s' created."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:137
+msgid "There was a problem creating a new %s '%s'."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:153
+msgid "Node Not Deleted"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:153
+msgid "There was an error deleting the %s. Check that the node exists."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:155
+msgid "<success>%s deleted.</success>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:176
+msgid "Error in setting new parent. Please make sure the parent node exists, and is not a descendant of the node specified."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:178
+msgid "Node parent set to %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:196
+msgid "Supplied Node '%s' not found"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:197;313;315;521
+msgid "No tree returned."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:200
+msgid "Path:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:234
+msgid "%s is <success>allowed</success>."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:236
+msgid "%s is <error>not allowed</error>."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:249
+msgid "Permission <success>granted</success>."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:251
+msgid "Permission was <error>not granted</error>."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:264
+msgid "Permission denied."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:266
+msgid "Permission was not denied."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:279
+msgid "Permission inherited."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:281
+msgid "Permission was not inherited."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:313;315;521
+#: /lib/Cake/Console/Command/ApiShell.php:90
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:255
+msgid "%s not found"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:365
+msgid "Type of node to create."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:368
+msgid "A console tool for managing the DbAcl"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:370
+msgid "Create a new ACL node"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:372
+msgid "Creates a new ACL object <node> under the parent"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:376
+msgid "The node selector for the parent."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:380
+msgid "The alias to use for the newly created node."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:386
+msgid "Deletes the ACL object with the given <node> reference"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:388
+msgid "Delete an ACL node."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:392
+msgid "The node identifier to delete."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:398
+msgid "Moves the ACL node under a new parent."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:400
+msgid "Moves the ACL object specified by <node> beneath <parent>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:404
+msgid "The node to move"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:408
+msgid "The new parent for <node>."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:414
+msgid "Print out the path to an ACL node."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:417
+msgid "Returns the path to the ACL object specified by <node>."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:418
+msgid "This command is useful in determining the inheritance of permissions for a certain object in the tree."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:423
+msgid "The node to get the path of"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:429
+msgid "Check the permissions between an ACO and ARO."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:432
+msgid "Use this command to check ACL permissions."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:435
+msgid "ARO to check."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:436
+msgid "ACO to check."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:437
+msgid "Action to check"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:441
+msgid "Grant an ARO permissions to an ACO."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:444
+msgid "Use this command to grant ACL permissions. Once executed, the ARO specified (and its children, if any) will have ALLOW access to the specified ACO action (and the ACO's children, if any)."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:447
+msgid "ARO to grant permission to."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:448
+msgid "ACO to grant access to."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:449
+msgid "Action to grant"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:453
+msgid "Deny an ARO permissions to an ACO."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:456
+msgid "Use this command to deny ACL permissions. Once executed, the ARO specified (and its children, if any) will have DENY access to the specified ACO action (and the ACO's children, if any)."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:459
+msgid "ARO to deny."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:460
+msgid "ACO to deny."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:461
+msgid "Action to deny"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:465
+msgid "Inherit an ARO's parent permissions."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:468
+msgid "Use this command to force a child ARO object to inherit its permissions settings from its parent."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:471
+msgid "ARO to have permissions inherit."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:472
+msgid "ACO to inherit permissions on."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:473
+msgid "Action to inherit"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:477
+msgid "View a tree or a single node's subtree."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:480
+msgid "The view command will return the ARO or ACO tree."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:481
+msgid "The optional node parameter allows you to return"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:482
+msgid "only a portion of the requested tree."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:486
+msgid "The optional node to view the subtree of."
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:490
+msgid "Initialize the DbAcl tables. Uses this command : cake schema create DbAcl"
+msgstr ""
+
+#: /lib/Cake/Console/Command/AclShell.php:557
+msgid "Could not find node using reference \"%s\""
+msgstr ""
+
+#: /lib/Cake/Console/Command/ApiShell.php:98
+msgid "%s::%s() could not be found"
+msgstr ""
+
+#: /lib/Cake/Console/Command/ApiShell.php:115
+msgid "Select a number to see the more information about a specific method. q to quit. l to list."
+msgstr ""
+
+#: /lib/Cake/Console/Command/ApiShell.php:117
+msgid "Done"
+msgstr ""
+
+#: /lib/Cake/Console/Command/ApiShell.php:145
+msgid "Either a full path or type of class (model, behavior, controller, component, view, helper)"
+msgstr ""
+
+#: /lib/Cake/Console/Command/ApiShell.php:147
+msgid "A CakePHP core class name (e.g: Component, HtmlHelper)."
+msgstr ""
+
+#: /lib/Cake/Console/Command/ApiShell.php:150
+msgid "The specific method you want help on."
+msgstr ""
+
+#: /lib/Cake/Console/Command/ApiShell.php:151
+msgid "Lookup doc block comments for classes in CakePHP."
+msgstr ""
+
+#: /lib/Cake/Console/Command/ApiShell.php:187
+msgid "Command %s not found"
+msgstr ""
+
+#: /lib/Cake/Console/Command/ApiShell.php:204
+msgid "%s could not be found"
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:86
+msgid "Interactive Bake Shell"
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:88
+msgid "[D]atabase Configuration"
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:89
+msgid "[M]odel"
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:90
+msgid "[V]iew"
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:91
+msgid "[C]ontroller"
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:92
+msgid "[P]roject"
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:93
+msgid "[F]ixture"
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:94
+msgid "[T]est case"
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:95
+#: /lib/Cake/Console/Command/I18nShell.php:72
+msgid "[Q]uit"
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:97
+msgid "What would you like to Bake?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:124
+msgid "You have made an invalid selection. Please choose a type of class to Bake by entering D, M, V, F, T, or C."
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:192
+msgid "<success>Bake All complete</success>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:195
+msgid "Bake All could not continue without a valid model"
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:207
+msgid "The Bake script generates controllers, views and models for your application."
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:212
+msgid "Bake a complete MVC. optional <name> of a Model"
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:214
+msgid "Bake a new app folder in the path supplied or in current directory if no path is specified"
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:217
+msgid "Bake a new plugin folder in the path supplied or in current directory if no path is specified."
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:220
+msgid "Bake a database.php file in config directory."
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:223
+msgid "Bake a model."
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:226
+msgid "Bake views for controllers."
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:229
+msgid "Bake a controller."
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:232
+msgid "Bake a fixture."
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:235
+msgid "Bake a unit test."
+msgstr ""
+
+#: /lib/Cake/Console/Command/BakeShell.php:238
+msgid "Database connection to use in conjunction with `bake all`."
+msgstr ""
+
+#: /lib/Cake/Console/Command/CommandListShell.php:48
+msgid "<info>Current Paths:</info>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/CommandListShell.php:54
+msgid "<info>Changing Paths:</info>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/CommandListShell.php:55
+msgid "Your working path should be the same as your application path to change your path use the '-app' param."
+msgstr ""
+
+#: /lib/Cake/Console/Command/CommandListShell.php:56
+msgid "Example: -app relative/path/to/myapp or -app /absolute/path/to/myapp"
+msgstr ""
+
+#: /lib/Cake/Console/Command/CommandListShell.php:58
+msgid "<info>Available Shells:</info>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/CommandListShell.php:152
+msgid "To run an app or core command, type <info>cake shell_name [args]</info>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/CommandListShell.php:153
+msgid "To run a plugin command, type <info>cake Plugin.shell_name [args]</info>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/CommandListShell.php:154
+msgid "To get help on a specific command, type <info>cake shell_name --help</info>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/CommandListShell.php:228
+msgid "Get the list of available shells for this CakePHP application."
+msgstr ""
+
+#: /lib/Cake/Console/Command/CommandListShell.php:230
+msgid "Get the listing as XML."
+msgstr ""
+
+#: /lib/Cake/Console/Command/CommandListShell.php:233
+msgid "Sorts the commands by where they are located."
+msgstr ""
+
+#: /lib/Cake/Console/Command/ConsoleShell.php:65;158
+msgid "Model classes:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/ConsoleShell.php:176
+msgid "Created %s association between %s and %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/ConsoleShell.php:179
+msgid "Please verify you are using valid models and association types"
+msgstr ""
+
+#: /lib/Cake/Console/Command/ConsoleShell.php:204
+msgid "Removed %s association between %s and %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/ConsoleShell.php:207
+msgid "Please verify you are using valid models, valid current association, and valid association types"
+msgstr ""
+
+#: /lib/Cake/Console/Command/ConsoleShell.php:258
+msgid "No result set found"
+msgstr ""
+
+#: /lib/Cake/Console/Command/ConsoleShell.php:261
+msgid "%s is not a valid model"
+msgstr ""
+
+#: /lib/Cake/Console/Command/ConsoleShell.php:277
+msgid "Saved record for %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/ConsoleShell.php:294
+msgid "Please verify that you selected a valid model"
+msgstr ""
+
+#: /lib/Cake/Console/Command/ConsoleShell.php:300
+msgid "There was an error loading the routes config. Please check that the file exists and is free of parse errors."
+msgstr ""
+
+#: /lib/Cake/Console/Command/ConsoleShell.php:303
+msgid "Routes configuration reloaded, %d routes connected"
+msgstr ""
+
+#: /lib/Cake/Console/Command/ConsoleShell.php:318
+msgid "Invalid command"
+msgstr ""
+
+#: /lib/Cake/Console/Command/I18nShell.php:67
+msgid "<info>I18n Shell</info>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/I18nShell.php:69
+msgid "[E]xtract POT file from sources"
+msgstr ""
+
+#: /lib/Cake/Console/Command/I18nShell.php:70
+msgid "[I]nitialize i18n database table"
+msgstr ""
+
+#: /lib/Cake/Console/Command/I18nShell.php:71
+msgid "[H]elp"
+msgstr ""
+
+#: /lib/Cake/Console/Command/I18nShell.php:74
+msgid "What would you like to do?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/I18nShell.php:89
+msgid "You have made an invalid selection. Please choose a command to execute by entering E, I, H, or Q."
+msgstr ""
+
+#: /lib/Cake/Console/Command/I18nShell.php:112
+msgid "I18n Shell initializes i18n database table for your application and generates .pot files(s) with translations."
+msgstr ""
+
+#: /lib/Cake/Console/Command/I18nShell.php:114
+msgid "Initialize the i18n table."
+msgstr ""
+
+#: /lib/Cake/Console/Command/I18nShell.php:116
+msgid "Extract the po translations from your application"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:119
+msgid "Schema file (%s) could not be found."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:131
+msgid "Generating Schema..."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:144
+msgid "Schema file exists.\n [O]verwrite\n [S]napshot\n [Q]uit\nWould you like to do?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:191;194
+msgid "Schema file: %s generated"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:212
+msgid "Schema could not be loaded"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:237
+msgid "SQL dump file created in %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:240
+msgid "SQL dump could not be created"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:284
+msgid "Performing a dry run."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:296
+msgid "%s could not be loaded"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:329;381
+msgid "Schema is up to date."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:333
+msgid "The following table(s) will be dropped."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:336
+msgid "Are you sure you want to drop the table(s)?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:337
+msgid "Dropping table(s)."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:341
+msgid "The following table(s) will be created."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:344
+msgid "Are you sure you want to create the table(s)?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:345
+msgid "Creating table(s)."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:348
+msgid "End create."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:362
+msgid "Comparing Database to Schema..."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:385
+msgid "The following statements will run."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:387
+msgid "Are you sure you want to alter the tables?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:389
+msgid "Updating Database..."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:393
+msgid "End update."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:406
+msgid "Sql could not be run"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:414
+msgid "%s is up to date."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:417
+msgid "Dry run for %s :"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:435
+msgid "%s updated."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:449
+msgid "The plugin to use."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:452
+msgid "Set the db config to use."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:456
+msgid "Path to read and write schema.php"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:460
+msgid "File name to read and write."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:464
+msgid "Classname to use. If its Plugin.class, both name and plugin options will be set."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:468
+msgid "Snapshot number to use/make."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:471
+msgid "Perform a dry run on create and update commands. Queries will be output instead of run."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:476
+msgid "Force \"generate\" to create a new schema"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:480
+msgid "Write the dumped SQL to a file."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:485
+msgid "The Schema Shell generates a schema object from the database and updates the database from the schema."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:487
+msgid "Read and output the contents of a schema file"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:493
+msgid "Reads from --connection and writes to --path. Generate snapshots with -s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:497
+msgid "Generate a snapshot."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:501
+msgid "Dump database SQL based on a schema file to stdout."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:507
+msgid "Drop and create tables based on the schema file."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:512;525
+msgid "Name of schema to use."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:515;528
+msgid "Only create the specified table."
+msgstr ""
+
+#: /lib/Cake/Console/Command/SchemaShell.php:520
+msgid "Alter the tables based on the schema file."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:49
+msgid "The CakePHP Testsuite allows you to run test cases from the command line"
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:50
+msgid "If run with no command line arguments, a list of available core test cases will be shown"
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:52
+msgid "app, core or name of a plugin."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:55
+msgid "file name with folder prefix and without the test.php suffix."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:58
+msgid "<file> Log test execution in JUnit XML format to file."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:61;64
+msgid "<file> Log test execution in TAP format to file."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:67
+msgid "Log test execution to DBUS."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:70
+msgid "<dir> Generate code coverage report in HTML format."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:73
+msgid "<file> Write code coverage data in Clover XML format."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:76
+msgid "<file> Write agile documentation in HTML format to file."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:79
+msgid "<file> Write agile documentation in Text format to file."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:82
+msgid "<pattern> Filter which tests to run."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:85
+msgid "<name> Only runs tests from the specified group(s)."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:88
+msgid "<name> Exclude tests from the specified group(s)."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:91
+msgid "List available test groups."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:94
+msgid "TestSuiteLoader implementation to use."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:97
+msgid "<times> Runs the test(s) repeatedly."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:100
+msgid "Report test execution progress in TAP format."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:103
+msgid "Report test execution progress in TestDox format."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:107
+msgid "Do not use colors in output."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:110
+msgid "Write to STDERR instead of STDOUT."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:113
+msgid "Stop execution upon first error or failure."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:116
+msgid "Stop execution upon first failure."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:119
+msgid "Stop execution upon first skipped test."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:122
+msgid "Stop execution upon first incomplete test."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:125
+msgid "Mark a test as incomplete if no assertions are made."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:128
+msgid "Waits for a keystroke after each test."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:131
+msgid "Run each test in a separate PHP process."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:134
+msgid "Do not backup and restore $GLOBALS for each test."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:137
+msgid "Backup and restore static attributes for each test."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:140
+msgid "Try to check source files for syntax errors."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:143
+msgid "<file> A \"bootstrap\" PHP file that is run before the tests."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:146
+msgid "<file> Read configuration from XML file."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:149
+msgid "Ignore default configuration file (phpunit.xml)."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:152
+msgid "<path(s)> Prepend PHP include_path with given path(s)."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:155
+msgid "key[=value] Sets a php.ini value."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:158
+msgid "Choose a custom fixture manager."
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:160
+msgid "Enable full output of testsuite. (supported in PHPUnit 3.6.0 and greater)"
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:246
+msgid "CakePHP Test Shell"
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:295
+#: /lib/Cake/Test/Case/Console/Command/TestsuiteShellTest.php:60
+msgid "No test cases available \n\n"
+msgstr ""
+
+#: /lib/Cake/Console/Command/TestsuiteShell.php:309
+#: /lib/Cake/Test/Case/Console/Command/TestsuiteShellTest.php:80
+msgid "What test case would you like to run?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:73
+msgid "<warning>Dry-run mode enabled!</warning>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:76
+msgid "<warning>No git repository detected!</warning>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:91
+msgid "Running %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:160;581;671
+msgid "Moving %s to %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:694
+msgid "Updating %s..."
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:735
+msgid " * Updating %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:739
+msgid "Done updating %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:755
+msgid "The plugin to update. Only the specified plugin will be updated."
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:759
+msgid "The extension(s) to search. A pipe delimited list, or a preg_match compatible subpattern"
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:764
+msgid "Use git command for moving files around."
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:769
+msgid "Dry run the update, no files will actually be modified."
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:776
+msgid "A shell to help automate upgrading from CakePHP 1.3 to 2.0. \n"
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:779
+msgid "Run all upgrade commands."
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:783
+msgid "Update tests class names to FooTest rather than FooTestCase."
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:787
+msgid "Move files and folders to their new homes."
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:791
+msgid "Update the i18n translation method calls."
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:795
+msgid "Update calls to helpers."
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:799
+msgid "Update removed basics functions to PHP native functions."
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:803
+msgid "Update removed request access, and replace with $this->request."
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:807
+msgid "Update Configure::read() to Configure::read('debug')"
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:811
+msgid "Replace Obsolete constants"
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:815
+msgid "Update components to extend Component class."
+msgstr ""
+
+#: /lib/Cake/Console/Command/UpgradeShell.php:819
+msgid "Replace use of cakeError with exceptions."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:76
+msgid "Baking basic crud methods for "
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:82
+msgid "Adding %s methods"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:129
+msgid "Bake Controller\nPath: %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:138
+msgid "Baking %sController"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:149
+msgid "Would you like to build your controller interactively?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:151
+msgid "Warning: Choosing no will overwrite the %sController."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:158
+msgid "Would you like to use dynamic scaffolding?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:171
+msgid "Would you like to use Session flash messages?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:189
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:239
+#: /lib/Cake/Console/Command/Task/ModelTask.php:247
+#: /lib/Cake/Console/Command/Task/PluginTask.php:98
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:192
+#: /lib/Cake/Console/Command/Task/ViewTask.php:333
+msgid "Look okay?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:218
+msgid "The following controller will be created:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:220
+msgid "Controller Name:\n\t%s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:227
+msgid "Helpers:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:228
+msgid "Components:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:255
+msgid "Would you like to create some basic class methods \n(index(), add(), view(), edit())?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:259
+msgid "Would you like to create the basic class methods for admin routing?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:281
+msgid "You must have a model for this class to build basic methods. Please try again."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:313
+msgid "Baking controller class for %s..."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:352
+msgid "Would you like this controller to use other helpers\nbesides HtmlHelper and FormHelper?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:353
+msgid "Please provide a comma separated list of the other\nhelper names you'd like to use.\nExample: 'Ajax, Javascript, Time'"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:364
+msgid "Would you like this controller to use any components?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:365
+msgid "Please provide a comma separated list of the component names you'd like to use.\nExample: 'Acl, Security, RequestHandler'"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:400
+msgid "Possible Controllers based on your current database:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:423
+msgid "Enter a number from the list above,\ntype in the name of another controller, or 'q' to exit"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:425
+#: /lib/Cake/Console/Command/Task/ModelTask.php:872
+msgid "Exit"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:430
+msgid "The Controller name you supplied was empty,\nor the number you selected was not an option. Please try again."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:451
+msgid "Bake a controller for a model. Using options you can bake public, admin or both."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:453
+msgid "Name of the controller to bake. Can use Plugin.name to bake controllers into plugins."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:455
+msgid "Bake a controller with basic crud actions (index, view, add, edit, delete)."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:458
+msgid "Bake a controller with crud actions for one of the Routing.prefixes."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:462
+msgid "Plugin to bake the controller into."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:465
+msgid "The connection the controller's model is on."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:467
+msgid "Bake all controllers with CRUD methods."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ControllerTask.php:468
+#: /lib/Cake/Console/Command/Task/FixtureTask.php:89
+#: /lib/Cake/Console/Command/Task/ModelTask.php:908
+#: /lib/Cake/Console/Command/Task/TestTask.php:487
+#: /lib/Cake/Console/Command/Task/ViewTask.php:442
+msgid "Omitting all arguments and options will enter into an interactive mode."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:99
+msgid "Name:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:102
+msgid "The name may only contain unaccented latin characters, numbers or underscores"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:105
+msgid "The name must start with an unaccented latin character or an underscore"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:109
+msgid "Datasource:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:111
+msgid "Persistent Connection?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:120
+msgid "Database Host:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:125
+msgid "Port?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:134
+msgid "User:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:140
+msgid "Password:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:143
+msgid "The password you supplied was empty. Use an empty password?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:152
+msgid "Database Name:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:157
+msgid "Table Prefix?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:165
+msgid "Table encoding?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:174
+msgid "Table schema?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:188
+msgid "Do you wish to add another database configuration?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:211
+msgid "The following database configuration will be created:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:213
+msgid "Name:         %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:214
+msgid "Datasource:       %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:215
+msgid "Persistent:   %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:216
+msgid "Host:         %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:219
+msgid "Port:         %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:222
+msgid "User:         %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:223
+msgid "Pass:         %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:224
+msgid "Database:     %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:227
+msgid "Table prefix: %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:231
+msgid "Schema:       %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:235
+msgid "Encoding:     %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:367
+msgid "Use Database Config"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/DbConfigTask.php:380
+msgid "Bake new database configuration settings."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:130
+msgid "What is the path you would like to extract?\n[Q]uit [D]one"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:134;169
+msgid "Extract Aborted"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:143;175
+msgid "The directory path you supplied was not found. Please try again."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:165
+msgid "What is the path you would like to output?\n[Q]uit"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:185
+msgid "Would you like to merge all domains strings into the default.pot file?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:204
+msgid "Extracting..."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:206
+msgid "Paths:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:210
+msgid "Output Directory: "
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:220
+msgid "Done."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:230
+msgid "CakePHP Language String Extraction:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:231
+msgid "Directory where your application is located."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:232
+msgid "Comma separated list of paths."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:234
+msgid "Merge all domain strings into the default.po file."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:237
+msgid "Full path to output directory."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:238
+msgid "Comma separated list of files."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:242
+msgid "Ignores all files in plugins if this command is run inside from the same app directory."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:245
+msgid "Extracts tokens only from the plugin specified and puts the result in the plugin's Locale directory."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:250
+msgid "Ignores validation messages in the $validate property. If this flag is not set and the command is run from the same app directory, all messages in model validation rules will be extracted as tokens."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:253
+msgid "If set to a value, the localization domain to be used for model validation messages."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:256
+msgid "Comma separated list of directories to exclude. Any path containing a path segment with the provided values will be skipped. E.g. test,vendors"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:268
+msgid "Processing %s..."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:486
+msgid "Error: %s already exists in this location. Overwrite? [Y]es, [N]o, [A]ll"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:490
+msgid "What would you like to name this file?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ExtractTask.php:582
+msgid "Invalid marker content in %s:%s\n* %s("
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/FixtureTask.php:71
+msgid "Generate fixtures for use with the test suite. You can use `bake fixture all` to bake all fixtures."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/FixtureTask.php:73
+msgid "Name of the fixture to bake. Can use Plugin.name to bake plugin fixtures."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/FixtureTask.php:75
+msgid "When using generated data, the number of records to include in the fixture(s)."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/FixtureTask.php:79
+msgid "Which database configuration to use for baking."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/FixtureTask.php:83
+msgid "CamelCased name of the plugin to bake fixtures for."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/FixtureTask.php:86
+msgid "Used with --count and <name>/all commands to pull [n] records from the live tables, where [n] is either --count or the default of 10"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/FixtureTask.php:140
+msgid "Bake Fixture\nPath: %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/FixtureTask.php:160
+msgid "Would you like to import schema for this fixture?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/FixtureTask.php:164
+msgid "Would you like to use record importing for this fixture?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/FixtureTask.php:169
+msgid "Would you like to build this fixture with data from %s's table?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/FixtureTask.php:257
+msgid "Baking test fixture for %s..."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/FixtureTask.php:386
+msgid "Please provide a SQL fragment to use as conditions\nExample: WHERE 1=1"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/FixtureTask.php:390
+msgid "How many records do you want to import?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:120
+msgid "Baking %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:160
+msgid "Make a selection from the choices above"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:177
+msgid "Bake Model\nPath: %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:199
+msgid "Table %s does not exist, cannot bake a model without a table."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:208
+msgid "Would you like to supply validation criteria \nfor the fields in your model?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:214
+msgid "Would you like to define model associations\n(hasMany, hasOne, belongsTo, etc.)?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:222
+msgid "The following Model will be created:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:224
+msgid "Name:       %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:227
+msgid "DB Config:  %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:230
+msgid "DB Table:   %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:233
+msgid "Primary Key: %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:236
+msgid "Validation: %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:239
+msgid "Associations:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:292
+msgid "What is the primaryKey?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:303
+msgid "A displayField could not be automatically detected\nwould you like to choose one?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:308
+msgid "Choose a field from the options above:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:378
+msgid "Field: %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:379
+msgid "Type: %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:381
+msgid "Please select one of the following validation options:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:389
+msgid "%s - Do not do any validation on this field.\n"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:390
+msgid "... or enter in a valid regex validation string.\n"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:417
+msgid "You have already chosen that validation rule,\nplease choose again"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:421
+msgid "Please make a valid selection."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:443
+msgid "Would you like to add another validation rule?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:462
+msgid "One moment while the associations are detected."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:489
+msgid "None found."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:491
+msgid "Please confirm the following associations:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:646
+msgid "Would you like to define some additional model associations?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:651
+msgid "What is the association type?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:652
+msgid "Enter a number"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:654
+msgid "For the following options be very careful to match your setup exactly.\nAny spelling mistakes will cause errors."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:657
+msgid "What is the alias for this association?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:658
+msgid "What className will %s use?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:672
+msgid "What is the table for this model?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:678
+msgid "A helpful List of possible keys"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:679
+msgid "What is the foreignKey?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:683
+msgid "What is the foreignKey? Specify your own."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:686
+msgid "What is the associationForeignKey?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:687
+msgid "What is the joinTable?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:699
+msgid "Define another association?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:757
+msgid "Baking model class for %s..."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:786
+msgid "Possible Models based on your current database:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:816
+msgid "Given your model named '%s',\nCake would expect a database table named '%s'"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:817
+msgid "Do you want to use this table?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:820
+msgid "What is the name of the table?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:851
+msgid "Your database does not have any tables."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:869
+msgid "Enter a number from the list above,\ntype in the name of another model, or 'q' to exit"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:877
+msgid "The model name you supplied was empty,\nor the number you selected was not an option. Please try again."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:897
+msgid "Bake models."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:899
+msgid "Name of the model to bake. Can use Plugin.name to bake plugin models."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:901
+msgid "Bake all model files with associations and validation."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:904
+msgid "Plugin to bake the model into."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ModelTask.php:907
+msgid "The connection the model table is on."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/PluginTask.php:56
+msgid "Plugin: %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/PluginTask.php:74
+msgid "Enter the name of the plugin in CamelCase format"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/PluginTask.php:78
+msgid "An error occured trying to bake: %s in %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/PluginTask.php:94
+msgid "<info>Plugin Name:</info> %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/PluginTask.php:95
+msgid "<info>Plugin Directory:</info> %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/PluginTask.php:148
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:203
+msgid "<success>Created:</success> %s in %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/PluginTask.php:172
+msgid "Choose a plugin path from the paths above."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/PluginTask.php:188
+msgid "Create the directory structure, AppModel and AppController classes for a new plugin. "
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/PluginTask.php:192
+msgid "CamelCased name of the plugin to create."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:53
+msgid "What is the path to the project you want to bake?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:64
+msgid "<warning>A project already exists in this location:</warning> %s Overwrite?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:75
+msgid " * Welcome page created"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:77
+msgid "The Welcome page was <error>NOT</error> created"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:82
+msgid " * Random hash key created for 'Security.salt'"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:84
+msgid "Unable to generate random hash for 'Security.salt', you should change it in %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:89
+msgid " * Random seed created for 'Security.cipherSeed'"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:91
+msgid "Unable to generate random seed for 'Security.cipherSeed', you should change it in %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:96
+msgid " * app/Console/cake.php path set."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:98
+msgid "Unable to set console path for app/Console."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:104
+msgid "<info>CakePHP is on your `include_path`. CAKE_CORE_INCLUDE_PATH will be set, but commented out.</info>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:106
+msgid "<warning>CakePHP is not on your `include_path`, CAKE_CORE_INCLUDE_PATH will be hard coded.</warning>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:107
+msgid "You can fix this by adding CakePHP to your `include_path`."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:112
+msgid " * CAKE_CORE_INCLUDE_PATH set to %s in webroot/index.php"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:113
+msgid " * CAKE_CORE_INCLUDE_PATH set to %s in webroot/test.php"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:115
+msgid "Unable to set CAKE_CORE_INCLUDE_PATH, you should change it in %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:119
+msgid "   * <warning>Remember to check these values after moving to production server</warning>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:124
+msgid "Could not set permissions on %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:125
+msgid "chmod -R 0777 %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:129
+msgid "<success>Project baked successfully!</success>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:131
+msgid "Project baked but with <warning>some issues.</warning>."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:169
+msgid "What is the path to the directory layout you wish to copy?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:174
+msgid "The directory path you supplied was empty. Please try again."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:178
+msgid "Directory path does not exist please choose another:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:188
+msgid "<info>Skel Directory</info>: "
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:189
+msgid "<info>Will be copied to</info>: "
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:206
+msgid "<error>Could not create</error> '%s' properly."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:220
+msgid "<error>Bake Aborted.</error>"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:388
+msgid "You have more than one routing prefix configured"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:397
+msgid "Please choose a prefix to bake with."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:402;410
+msgid "You need to enable Configure::write('Routing.prefixes',array('admin')) in /app/Config/core.php to use prefix routing."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:403
+msgid "What would you like the prefix route to be?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:404
+msgid "Example: www.example.com/admin/controller"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:406
+msgid "Enter a routing prefix:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:409
+msgid "<error>Unable to write to</error> /app/Config/core.php."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:426
+msgid "Generate a new CakePHP project skeleton."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:428
+msgid "Application directory to make, if it starts with \"/\" the path is absolute."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:430
+msgid "Create empty files in each of the directories. Good if you are using git"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ProjectTask.php:433
+msgid "The directory layout to use for the new application skeleton. Defaults to cake/Console/Templates/skel of CakePHP used to create the project."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TemplateTask.php:175
+msgid "You have more than one set of templates installed."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TemplateTask.php:176
+msgid "Please choose the template set you wish to use:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TemplateTask.php:186
+msgid "Which bake theme would you like to use?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TemplateTask.php:212
+msgid "Could not find template for %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TestTask.php:96
+msgid "Bake Tests"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TestTask.php:103
+msgid "Incorrect type provided. Please choose one of %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TestTask.php:129
+msgid "Bake is detecting possible fixtures..."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TestTask.php:144
+msgid "Baking test case for %s %s ..."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TestTask.php:169
+msgid "Select an object type:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TestTask.php:179
+msgid "Enter the type of object to bake a test for or (q)uit"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TestTask.php:203
+msgid "Choose a %s class"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TestTask.php:210
+msgid "Choose an existing class, or enter the name of a class that does not exist"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TestTask.php:405
+msgid "Bake could not detect fixtures, would you like to add some?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TestTask.php:408
+msgid "Please provide a comma separated list of the fixtures names you'd like to use.\nExample: 'app.comment, app.post, plugin.forums.post'"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TestTask.php:472
+msgid "Bake test case skeletons for classes."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TestTask.php:474
+msgid "Type of class to bake, can be any of the following: controller, model, helper, component or behavior."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TestTask.php:483
+msgid "An existing class to bake tests for."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/TestTask.php:486
+msgid "CamelCased name of the plugin to bake tests for."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:210
+msgid "Would you like bake to build your views interactively?\nWarning: Choosing no will overwrite %s views if it exist."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:217
+msgid "Would you like to create some CRUD views\n(index, add, view, edit) for this controller?\nNOTE: Before doing so, you'll need to create your controller\nand model classes (including associated models)."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:220
+msgid "Would you like to create the views for admin routing?"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:239
+msgid "View Scaffolding Complete.\n"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:256
+msgid "Controller not found"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:268
+msgid "The file '%s' could not be found.\nIn order to bake a view, you'll need to first create the controller."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:320
+msgid "Action Name? (use lowercase_underscored function name)"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:322
+msgid "The action name you supplied was empty. Please try again."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:327
+msgid "The following view will be created:"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:329
+msgid "Controller Name: %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:330
+msgid "Action Name:     %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:331
+msgid "Path:            %s"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:338
+msgid "Bake Aborted."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:356
+msgid "Baking `%s` view file..."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:424
+msgid "Bake views for a controller, using built-in or custom templates."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:426
+msgid "Name of the controller views to bake.  Can be Plugin.name as a shortcut for plugin baking."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:428
+msgid "Will bake a single action's file. core templates are (index, add, edit, view)"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:430
+msgid "Will bake the template in <action> but create the filename after <alias>."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:433
+msgid "Plugin to bake the view into."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:435
+msgid "Set to only bake views for a prefix in Routing.prefixes"
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:439
+msgid "The connection the connected model is on."
+msgstr ""
+
+#: /lib/Cake/Console/Command/Task/ViewTask.php:441
+msgid "Bake all CRUD action views for all controllers. Requires models and controllers to exist."
+msgstr ""
+

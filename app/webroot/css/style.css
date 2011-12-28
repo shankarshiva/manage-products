@@ -65,8 +65,8 @@ a
 
 #header 
 {
-	background:url(../images/header_bg_new.jpg) no-repeat center 0px;
-	height:116px;
+	background: url(../images/header_bg_new.jpg) no-repeat center 0px;
+	height: 95px;
 }
 
 .headerWrap 
@@ -314,42 +314,42 @@ ul.subLinks li.pageHeading, div.pageHeading, li.pageHeading h1, div.pageHeading 
 
 .formTable tr.earlier td 
 {
-	background:#fbb14f;
-	border-bottom:1px dashed #b0cbde;
-	padding:3px 5px;
+	background: #fbb14f;
+	border-bottom: 1px dashed #b0cbde;
+	padding: 3px 5px;
 }
 
 .formTable td.compareTd .formTable tr td 
 {
-	border-bottom:none;
+	border-bottom: none;
 }
 
 .formTable td.compareTd .formTable 
 {
-	border-bottom:1px dashed #b0cbde;
+	border-bottom: 1px dashed #b0cbde;
 }
 
 .footer 
 {
-	background:url(../images/footer_bg_new.jpg) no-repeat center 0px;
-	color:#8B8B8B;
-	font-size:11px;
-	width:100%;
-	min-width:1003px;
-	height:60px;
-	margin:0 auto;
-	text-align:center;
-	margin-top:-60px;
+	background: url(../images/footer_bg_new.jpg) no-repeat center 0px;
+	color: #8B8B8B;
+	font-size: 11px;
+	width: 100%;
+	min-width: 1003px;
+	height: 60px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: -60px;
 }
 	.footer .footerWrap 
 	{
-		width:930px;
-		margin:0 auto;
+		width: 930px;
+		margin: 0 auto;
 	}
 	.footer ul 
 	{
-		text-align:center;
-		padding:12px 0px 16px 0px;
+		text-align: center;
+		padding: 12px 0px 16px 0px;
 	}
 		.footer ul li 
 		{
@@ -1179,54 +1179,60 @@ ul.featuredProducts li, ul.nonfeaturedProducts li
 
 #login 
 {
-  margin:10px 0px 0px 0px;
-  border:1px solid #666;
+  margin: 20px auto 80px auto;
+  border: 1px solid #666;
   background: #f6f5f5;
-  padding:20px;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 13px; color: #333;
-  width:380px;
+  padding: 20px;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 13px; color: #333;
+  width: 380px;
 }
 
 
 p.error 
 {
-  padding-left:20px;
-  display:block;
+  padding-left: 20px;
+  display: block;
   background-image: url(../images/icons/exclamation.gif);
   background-repeat: no-repeat;
   background-position: 0 0;
   color: #900;
 }
-.black_button 
-{
-  margin: 0px 28px 0 0;
-  padding: 0px;
-  border: 0px;
-  background-color:#3787ac;
-  color: #FFF;
-  display:block;
-  float: right;
-  width:90px;
-  height: 30px;   
-  text-decoration: none;
-  overflow: hidden;
-  font-size: 12px;
-  outline: none;
-  cursor: pointer;
-  font-weight: bold;
-}
-.black_button:hover
-{
-background-color: #257296;
-}
-
 .inputText 
 {
-  padding:7px;
-  border:1px solid #999;
-  font-size:16px;
-  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding: 7px;
+  border: 1px solid #999;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   color: #333;
-  width:270px;
-  margin:5px;
-  background:#FFFFF8;
+  width: 270px;
+  margin: 5px;
+  background: #FFFFF8;
+}
+
+input.submit
+{
+  width: 100px;
+  background: #bb2020;      
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: #000 1px 1px;
+  border: 1px solid #D3D3D3;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.welcomeMessage 
+{
+	border-right: 0px;
+	color: #297EBF;
+  text-decoration: none;
+  font-weight: bold; 
+  padding: 13px 6px 0px 6px;
+  height: 23px;
+	text-align: right;
+}
+
+.error-message
+{
+  color: #ff0000;
+	font-size: 12px;
 }

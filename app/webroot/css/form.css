@@ -7,8 +7,9 @@ form
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   background: #f7f5f5;  
-  margin: 20px auto;
+  margin: 20px auto 110px auto;
   padding: 20px;
+	
 }
 
 label
@@ -82,4 +83,27 @@ form p a
   font-weight: bold;
   margin: 0;
   padding: 0 0 25px 0;
+}
+
+.black_button 
+{
+  margin: 0;
+  padding: 0px;
+  border: 0px;
+  background-color: #3787ac;
+  color: #FFF;
+  display: block;
+  float: right;
+  width: 90px;
+  height: 30px;   
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.black_button:hover
+{
+  background-color: #257296;
 }

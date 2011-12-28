@@ -6,11 +6,6 @@
 </h2>
   <table cellpadding="0" cellspacing="0">
     <tr>
-      <th> 
-        <?php 
-          echo $this->Paginator->sort('id');
-        ?>
-      </th>
       <th>
         <?php 
           echo $this->Paginator->sort('product_id');
@@ -21,7 +16,7 @@
           echo $this->Paginator->sort('image_name');
         ?>
       </th>
-      <th class="actions">
+      <th class="actions actionCenter" >
         <?php 
           echo __('Actions');
         ?>
@@ -37,7 +32,6 @@
       }
       ?>
       <tr<?php echo $class;?>>
-        <td><?php echo $productImage['ProductImage']['id']; ?>&nbsp;</td>
         <td>
         <?php echo $this->Html->link($productImage['Product']['product_name'], array('controller' => 'products', 'action' => 'index', $productImage['Product']['id'])); ?>
         </td>

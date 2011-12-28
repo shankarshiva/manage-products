@@ -2,9 +2,8 @@
 
 /*
  * #################################################################
- * Author:		Shiva Shankar Company:		Camo Solutions Web Site:		sample application
- * Project: sample project Comments: User information Created Date:	Dec 26 2011
- * Last Modified: Reviewed on: Reviewed by: Approved by:
+ * Author: Shiva Shankar ; 
+ * Created Date:	Dec 26 2011
  * #################################################################
  */
 
@@ -14,41 +13,25 @@ class UsersController extends AppController
   /**
    * Controller name
    *
-   * @var unknown_type
    */
-  var $name = "Users";
+  public $name = "Users";
 
   /**
-   * Used helpers
+   * Used components
    *
    * @var array
    * @access public
    */
-  var $helpers = array(
-    'Form', 
-    'Html'
+  public $components = array(
+    'Captcha'
   );
-  
+
   public function beforeFilter()
   {
-    
-    $this->Auth->allow('registration');
-    $this->Auth->loginRedirect =  array('controller' => 'Products', 'action' => 'home');
-   // $this->Auth->logoutRedirect = array('controller' => 'Users', 'action' => 'login');
-    $this->Auth->authenticate = array(
-        'Form' => array(
-            'fields' => array(
-                'username' => 'email_address',
-                'password' => 'pass_word'
-            )
-        )
-    );
-    
     parent::beforeFilter();
-    
+    $this->Auth->allow('signup', 'captcha');
   }
 
-  
   /**
    * Function for check login
    *
@@ -58,14 +41,16 @@ class UsersController extends AppController
     // Setting the page title
     $this->set("title_for_layout", "User Login");
     
-    //echo "===".AuthComponent::password('shiva1234');
-    if ($this->Auth->login())
+    if ($this->request->is('post'))
     {
-      $this->redirect($this->Auth->redirect());
-    }
-    else
-    {
-      $this->Session->setFlash(__('Invalid username or password, try again'));
+      if ($this->Auth->login())
+      {
+        $this->redirect($this->Auth->redirect());
+      }
+      else
+      {
+        $this->Session->setFlash(__('Invalid username or password, try again'));
+      }
     }
   }
 
@@ -74,33 +59,87 @@ class UsersController extends AppController
     $this->redirect($this->Auth->logout());
   }
 
+  public function captcha()
+  {
+    $this->autoRender = false;
+    $this->layout = 'ajax';
+    $this->Captcha->create();
+  }
   
+  /**
+   * Function for registration new user 
+   * and automatically login into the system
+   */
+  public function signup()
+  {
+    // Checking if already logged in then redirecting to home page
+    if (!$this->checkLogin())
+    {
+      if ($this->request->is('post'))
+      {
+        $this->User->create();
+        $this->User->setCaptcha($this->Captcha->getVerCode());
+
+        if ($this->User->save($this->request->data))
+        {
+
+          $data = array(
+            'id' => $this->User->id,
+            'name' => $this->request->data['User']['name'], 
+            'email_address' => $this->request->data['User']['email_address'], 
+            'user_type' => $this->request->data['User']['user_type']
+          );
+
+          $this->Auth->login($data);
+          
+          $this->Session->setFlash(__('Successfully registered'));
+          $this->redirect(array(
+            'controller' => 'Products', 
+            'action' => 'home'
+          ));
+        }
+        else
+        {
+          $this->Session->setFlash(__('We encountered errors in the information
+              you submitted. Please check the fields marked below and try again.'));
+        }
+      }
+    }
+    else
+    {
+      $this->redirect(array(
+        'controller' => 'Products', 
+        'action' => 'home'
+      ));
+    }
+  }
+
   /**
    * Function for check login
    *
    */
   public function admin_login()
   {
-  
+    
     // Setting the layout for admin
     $this->layout = 'admin';
-  
+    
     // Setting the page title
     $this->set("title_for_layout", "Admin Login");
-  
+    
     if (!$this->adminCheckLogin())
     {
       if ($this->request->is('post'))
       {
-        if ($result = $this->User->getUserDetails($this->request->data))
+        if ($result = $this->User->getAdminUserDetails($this->request->data))
         {
           $this->Session->write('AdminUser', $result['User']);
-
-          /* return $this->redirect(array(
-              'controller' => 'Categories',
-              'action' => 'index'
-          )); */
-          return $this->redirect(array('controller'=>'Categories','action' => 'index', 'admin'=>1));
+          
+          return $this->redirect(array(
+            'controller' => 'Categories', 
+            'action' => 'index', 
+            'admin' => true
+          ));
         }
         else
         {
@@ -110,12 +149,14 @@ class UsersController extends AppController
     }
     else
     {
-
-      $this->redirect(array('controller'=>'Categories','action'=>'index', 'admin'=>1));
-      //$this->redirect(array('controller'=>'Categories','action' => 'admin_index'), null, true);
+      $this->redirect(array(
+        'controller' => 'Categories', 
+        'action' => 'index', 
+        'admin' => true
+      ));
     }
   }
-  
+
   /**
    * Function for admin logout
    *
@@ -124,13 +165,13 @@ class UsersController extends AppController
   {
     $this->layout = 'admin';
     $this->Session->delete('AdminUser');
-    /* $this->redirect(array(
-        'controller' => 'Users',
-        'action' => 'login'
-    )); */
-    $this->redirect(array('controller'=>'Users','action' => 'login', 'admin'=>1));
+
+    $this->redirect(array(
+      'controller' => 'Users', 
+      'action' => 'login', 
+      'admin' => true
+    ));
   }
-  
-  
+
 }
 ?>

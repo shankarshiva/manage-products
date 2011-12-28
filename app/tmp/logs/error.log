@@ -2736,3 +2736,816 @@
 2011-12-27 10:17:35 Error: [MissingControllerException] Controller class ImagesController could not be found.
 #0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2011-12-27 10:20:52 Error: [MissingActionException] Action UsersController::admin_index() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 10:20:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 20:48:49 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 20:48:49 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 20:48:52 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 20:48:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 20:49:09 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 20:49:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:30:08 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:30:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:30:24 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:30:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:30:26 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:30:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:30:27 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:30:27 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:30:28 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:30:28 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:31:15 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 21:31:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:32:04 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 21:32:04 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:32:04 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 21:32:04 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:32:05 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 21:32:05 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:32:05 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 21:32:05 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:56:08 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 21:56:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:56:11 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 21:56:11 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 21:56:19 Error: [MissingActionException] Action UsersController::admin_index() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 21:56:19 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:01:12 Error: [MissingActionException] Action UsersController::admin_index() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 22:01:12 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:03:30 Error: [MissingActionException] Action UsersController::admin_index() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 22:03:30 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:37:48 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:38:29 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:38:39 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:39:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:39:19 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:39:40 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:40:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:40:38 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:40:48 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:42:04 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:42:11 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:42:37 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:42:42 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:42:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:42:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:42:47 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:42:48 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:43:27 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:43:37 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:44:31 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:45:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:46:11 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:47:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:47:35 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:49:39 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:49:41 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:49:50 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:50:58 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:50:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:51:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:51:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:51:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:51:25 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:52:04 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:52:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:52:32 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:52:38 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:52:48 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:53:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:55:58 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:56:10 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:56:11 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 22:56:12 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:18:32 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:18:44 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:19:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:19:19 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:20:41 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:20:55 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:21:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:21:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:21:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:21:16 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:21:17 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:21:37 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:21:38 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:21:39 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:21:40 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:21:40 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:21:41 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:22:40 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:22:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:22:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:23:17 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:23:17 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:23:17 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:23:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:23:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:23:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:23:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:23:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:23:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:23:48 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:23:49 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:30:19 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:30:20 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:30:22 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:30:22 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:30:23 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:30:54 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:30:58 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:31:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:31:45 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:31:46 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:32:21 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:32:22 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:32:22 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:32:36 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:32:37 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:34:24 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:34:51 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:34:51 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:35:29 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:35:29 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:35:41 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:36:15 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:36:17 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:36:22 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:36:25 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:36:31 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:36:31 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:36:35 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:36:35 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:36:42 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:36:42 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:37:17 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:37:17 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:37:21 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:37:21 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:37:22 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:37:45 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:37:46 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:37:47 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:37:49 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:37:51 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:45:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.email_address' in 'where clause'
+#0 /var/www/manage-products/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /var/www/manage-products/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/manage-products/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/manage-products/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 /var/www/manage-products/lib/Cake/Model/Model.php(2460): DboSource->read(Object(User), Array)
+#5 /var/www/manage-products/lib/Cake/Model/Model.php(2839): Model->find('count', Array)
+#6 /var/www/manage-products/lib/Cake/Core/Object.php(122): Model->isUnique(Array, Array)
+#7 /var/www/manage-products/lib/Cake/Model/Model.php(2979): Object->dispatchMethod('isUnique', Array)
+#8 /var/www/manage-products/lib/Cake/Model/Model.php(2865): Model->invalidFields(Array)
+#9 /var/www/manage-products/lib/Cake/Model/Model.php(1542): Model->validates(Array)
+#10 /var/www/manage-products/app/Controller/UsersController.php(70): Model->save(Array)
+#11 [internal function]: UsersController->registration()
+#12 /var/www/manage-products/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#14 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2011-12-27 23:45:40 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:45:58 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:45:58 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:45:59 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:46:00 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:46:10 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:46:10 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:46:10 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:46:10 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:48:14 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:48:59 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:49:13 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:49:23 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:49:30 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:49:50 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:49:50 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:50:10 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:50:14 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:50:15 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:50:41 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:52:07 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-27 23:58:37 Error: [MissingControllerException] Controller class ImageController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:58:37 Error: [MissingControllerException] Controller class ImageController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-27 23:59:01 Error: [MissingControllerException] Controller class ImageController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 00:00:46 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-28 00:00:46 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-28 00:00:47 Error: [MissingActionException] Action UsersController::captcha() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-28 01:04:15 Error: [MissingControllerException] Controller class AdminUsersController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 01:04:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 01:10:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 02:16:26 Error: [MissingActionException] Action UsersController::registration() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-28 02:16:27 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 02:16:28 Error: [MissingViewException] View file "/var/www/manage-products/app/View/Users/signup.ctp" is missing.
+#0 /var/www/manage-products/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /var/www/manage-products/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-28 02:16:28 Error: [MissingViewException] View file "/var/www/manage-products/app/View/Users/signup.ctp" is missing.
+#0 /var/www/manage-products/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /var/www/manage-products/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-28 02:16:28 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 02:16:28 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 02:16:36 Error: [MissingViewException] View file "/var/www/manage-products/app/View/Users/signup.ctp" is missing.
+#0 /var/www/manage-products/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /var/www/manage-products/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-28 02:16:36 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 02:16:37 Error: [MissingViewException] View file "/var/www/manage-products/app/View/Users/signup.ctp" is missing.
+#0 /var/www/manage-products/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /var/www/manage-products/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-28 02:16:37 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 03:11:18 Error: [MissingActionException] Action ProductsController::product_details() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-28 03:11:18 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 03:11:42 Error: [MissingActionException] Action ProductsController::product_details() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-28 03:11:42 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 03:12:03 Error: [MissingViewException] View file "/var/www/manage-products/app/View/Products/productdetails.ctp" is missing.
+#0 /var/www/manage-products/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /var/www/manage-products/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-28 03:12:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 03:12:15 Error: [MissingViewException] View file "/var/www/manage-products/app/View/Products/productdetails.ctp" is missing.
+#0 /var/www/manage-products/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /var/www/manage-products/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-28 03:12:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 03:12:30 Error: [MissingViewException] View file "/var/www/manage-products/app/View/Products/productdetails.ctp" is missing.
+#0 /var/www/manage-products/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /var/www/manage-products/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-28 03:12:30 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 05:52:17 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-28 05:52:17 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

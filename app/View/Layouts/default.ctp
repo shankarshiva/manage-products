@@ -23,71 +23,119 @@
         <div class="headerWrap">
         	<div class="top_links">
         	  <div style="float:left;">
-        	     <?php 
-        	     if(!AuthComponent::User('id'))
-        	     {
-        	       echo __('Welcome Guest!');
-        	     }
-        	     else
-        	     {
-        	       echo __('Welcome ').AuthComponent::User('name');
-        	     }
-        	     ?>
+        	     
         	  </div>
         	</div>
-        	<?php 
-    	     if(AuthComponent::User('id'))
-    	     {
-    	     ?>
+        	
         	<table cellpadding="0" cellspacing="0" width="100%" border="0">				
         		<tr>
-        			<td class="spacer20"></td>
+        			<td class="spacer20">
+        			<?php
+          			echo $this->Html->link(
+        			    $this->Html->image('/images/logo.png', array('alt'=> '', 'border' => '0')),
+        			    array('controller'=>'Products', 'action' => 'home'),
+        			    array('escape' => false)
+          			);
+        	    ?>
+        	    </td>
+        	    <?php 
+        	     if(AuthComponent::User('email_address'))
+        	     {
+        	     ?>
         			<td align="right" valign="top">
         			<?php 
         			  echo $this->Form->create('Product',array('action'=>'searchResult')); 
         			?>
         				<table cellpadding="0" cellspacing="0" border="0">
         					<tr>
-        						<td align="right"><img src="<?php echo HTTP_HOST;?>/images/left_curve.gif" alt="" ></td>
+        						<td align="right">
+        						<?php 
+        						  echo $this->Html->image('/images/left_curve.gif', array('alt'=> '', 'border' => '0'));
+        						?>
+        						</td>
         						<td class="top_bg" align="right">
           						<?php echo __('What Are You Looking For : '); 
-          						echo $this->Form->input("keywords", array('label'=>false,'class'=>'txt_box','style'=>'width:330px;','div'=>false)); 
+          						  echo $this->Form->input("keywords", array('label'=>false,'class'=>'txt_box','style'=>'width:330px;','div'=>false)); 
           						?>
           						<input type="submit" value="" class="search" id="search-submit" >
         						</td>
-        						<td align="left"><img src="<?php echo HTTP_HOST;?>/images/right_curve.gif" alt="" ></td>
+        						<td align="left">
+        						<?php 
+        						  echo $this->Html->image('/images/right_curve.gif', array('alt'=> '', 'border' => '0'));
+        						?>
+        						</td>
         					</tr>
+              		<tr>
+            					<td align="right" class="welcomeMessage" colspan="3">
+            					<?php echo __('Welcome, ').AuthComponent::User('name');?>
+            					</td>
+              		</tr>
         				</table>
         			<?php echo $this->Form->end(); ?>
         			</td>
+        			<?php 
+        	     }
+        	     ?>
         			<td class="spacer"></td>
         		</tr>
+        		
         	</table>
-        	<?php }?>
+        	
         </div>
       </div>
       <!-- Header Part Ends Here -->
       <!-- Top menu Part Starts Here -->
       <div class="top_menu"><div class="top_menuWrap">
       	<ul>	
-      	<?php if(!AuthComponent::User('id')) 
+      	<?php if(!AuthComponent::User('email_address')) 
       	{
       	  ?>
-          <li class="home"><a href="<?php echo HTTP_HOST;?>/Users/login">Login</a></li>
+          <li class="home">
+          <?php 
+            echo $this->Html->link(__('Login', true), array(
+              'controller'=>'Users',
+              'action' => 'login')
+            );
+          ?>
+          </li>
+          <li class="home">
+          <?php 
+            echo $this->Html->link(__('Register', true), array(
+              'controller'=>'Users',
+              'action' => 'signup')
+            );
+          ?>
+          </li>
       	  <?php 
       	}
       	else
       	{
       	  ?>
-      	  <li class="home"><a href="<?php echo HTTP_HOST;?>/Products/home">Home</a></li>			
-      		<li class="home"><a href="<?php echo HTTP_HOST;?>/Users/logout">Logout</a></li>	
+      	  <li class="home">
+      	  <?php 
+            echo $this->Html->link(__('Home', true), array(
+              'controller'=>'Products',
+              'action' => 'home')
+            );
+          ?>
+      	  </li>			
+      		<li class="home">
+      		<?php 
+            echo $this->Html->link(__('Logout', true), array(
+              'controller'=>'Users',
+              'action' => 'logout')
+            );
+          ?>
+      		</li>	
       	  <?php 
       	}
       	?>
       	</ul>
       </div>
     </div>
-    <div style="text-align:center;"><?php echo $this->Session->flash();?></div>
+    <div style="text-align:center;" class="error-message">
+      <?php echo $this->Session->flash();?>
+    </div>
     <!-- Top menu Part Ends Here -->
     <div id="content">
     	<?php 

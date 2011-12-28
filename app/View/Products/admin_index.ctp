@@ -4,13 +4,8 @@
       echo __('Products');
     ?>
   </h2>
-  <table cellpadding="0" cellspacing="0">
+  <table cellpadding="0" cellspacing="0" border="0">
     <tr>
-      <th>
-        <?php 
-          echo $this->Paginator->sort('id');
-        ?>
-      </th>
       <th>
         <?php 
           echo $this->Paginator->sort('category_id');
@@ -36,7 +31,7 @@
           echo $this->Paginator->sort('price');
         ?>
       </th>
-      <th class="actions">
+      <th class="actions actionCenter">
         <?php 
           echo __('Actions');
         ?>
@@ -52,11 +47,6 @@
       }
       ?>
       <tr<?php echo $class;?>>
-        <td>
-          <?php 
-            echo $product['Product']['id']; 
-          ?>&nbsp;
-        </td>
         <td>
         <?php 
           echo $this->Html->link($product['Category']['category_name'], array('controller' => 'categories', 'action' => 'index', $product['Category']['id'])); 
@@ -76,6 +66,7 @@
           <?php 
             echo $product['Product']['product_desc']; 
           ?>&nbsp;
+          
         </td>
         <td>
           <?php 

@@ -73,7 +73,7 @@ p
 	#header h1 
 	{
 	line-height: 20px;
-	background: #448aa3 url('../images/cake.icon.png') no-repeat left;
+	background: #448aa3 ;
 	color: #fff;
 	font-size: 200%;
 	text-transform: capitalize;
@@ -394,7 +394,7 @@ label
 input, textarea 
 {
 	clear: both;
-	font-size: 140%;
+	font-size: 12px;
 	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
 	padding: 5px;
 	margin: 6px;
@@ -519,7 +519,7 @@ form .error-message
 {
 	clear: both;
 	color: #fff;
-	font-size: 140%;
+	font-size: 12px;
 	font-weight: bold;
 	margin: 0 0 1em 0;
 	padding: 5px;
@@ -602,7 +602,7 @@ p.error
 p.error em 
 {
 	font-weight: normal;
-	line-height: 140%;
+	line-height: 12px;
 }
 
 .notice 
@@ -689,3 +689,8 @@ input[type=submit]:active,
 	text-decoration: none;
 }
  
+.actionCenter
+{
+	text-align: center;
+}
+}

@@ -16,7 +16,7 @@
           echo $this->Paginator->sort('category_image');
         ?>
       </th>
-      <th class="actions">
+      <th class="actions actionCenter" >
         <?php 
           echo __('Actions');
         ?>

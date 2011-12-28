@@ -33,42 +33,64 @@
 class AppController extends Controller
 {
 
-  var $components = array(
-    'Session', 
-    'Auth'
-    /* 'Auth' => array(
-      'loginRedirect' => array(
-        'controller' => 'Products', 
-        'action' => 'home'
-      ), 
-      'logoutRedirect' => array(
-        'controller' => 'Users', 
-        'action' => 'login'
-      ), 
-      'authenticate' => array(
-        'Form' => array(
-          'fields' => array(
-            'username' => 'email_address', 
-            'password' => 'pass_word'
-          )
-        )
-      )
-    ) */
-  );
-
   /**
-	 * Used helpers
-	 *
-	 * @var array
-	 * @access public
-	 */
-  
-  var $helpers = array(
-    'Functions',
-    'Session',
+   * Used helpers
+   *
+   * @var array
+   * @access public
+   */
+  public $helpers = array(
+      'Functions',
+      'Session',
       'Form',
       'Html'
   );
+
+  /**
+   * Used components
+   *
+   * @var array
+   * @access public
+   */
+  public $components = array(
+    'Session', 
+      'Auth'
+  );
+
+  function beforeFilter()
+  {
+    
+    print_r($this->params['lang']);
+    
+    if(isset($this->params['lang'])){
+      $this->Session->write('Config.language', $this->params['lang']);
+    }
+    
+    if (empty($this->params[Configure::read('Routing.admin')]) || !$this->params[Configure::read('Routing.admin')]) {
+      $this->Auth->allow('register',$this->params['action']);
+    }
+    else
+    {
+      $this->Auth->allow('register');
+    }
+    
+    $this->Auth->loginRedirect = array(
+        'controller' => 'Products',
+        'action' => 'home','admin'=>false
+    );
+    $this->Auth->loginRedirect = array(
+        'controller' => 'Products',
+        'action' => 'home','plugin' => false,'admin'=>false
+    );
+    $this->Auth->authenticate = array(
+        'Form' => array(
+            'fields' => array(
+                'username' => 'email_address',
+                'password' => 'pass_word'
+            )
+        )
+    );
+  }
 
   /**
    * Load the Authentication

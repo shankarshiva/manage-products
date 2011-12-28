@@ -1,2 +1,528 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-12-28 03:46+0530\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
+#: /Controller/CategoriesController.php:80;160;80;160
+msgid "The category has been saved"
+msgstr ""
+
+#: /Controller/CategoriesController.php:87;167;87;167
+msgid "The category could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/CategoriesController.php:104;104
+msgid "Invalid category"
+msgstr ""
+
+#: /Controller/CategoriesController.php:189;189
+msgid "Invalid id for category"
+msgstr ""
+
+#: /Controller/CategoriesController.php:196;196
+msgid "Category deleted"
+msgstr ""
+
+#: /Controller/CategoriesController.php:201;201
+msgid "Category was not deleted"
+msgstr ""
+
+#: /Controller/ProductImagesController.php:69;148;69;148
+msgid "The product image has been saved"
+msgstr ""
+
+#: /Controller/ProductImagesController.php:74;153;74;153
+msgid "The product image could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/ProductImagesController.php:93;93
+msgid "Invalid product image"
+msgstr ""
+
+#: /Controller/ProductImagesController.php:178;178
+msgid "Invalid id for product image"
+msgstr ""
+
+#: /Controller/ProductImagesController.php:183;183
+msgid "Product image deleted"
+msgstr ""
+
+#: /Controller/ProductImagesController.php:186;186
+msgid "Product image was not deleted"
+msgstr ""
+
+#: /Controller/ProductsController.php:268;313;268;313
+msgid "The product has been saved"
+msgstr ""
+
+#: /Controller/ProductsController.php:273;318;273;318
+msgid "The product could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/ProductsController.php:306;306
+msgid "Invalid product"
+msgstr ""
+
+#: /Controller/ProductsController.php:361;361
+msgid "Invalid id for product"
+msgstr ""
+
+#: /Controller/ProductsController.php:367;367
+msgid "Product deleted"
+msgstr ""
+
+#: /Controller/ProductsController.php:371;371
+msgid "Product was not deleted"
+msgstr ""
+
+#: /Controller/SubCategoriesController.php:70;147;70;147
+msgid "The sub category has been saved"
+msgstr ""
+
+#: /Controller/SubCategoriesController.php:75;152;75;152
+msgid "The sub category could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/SubCategoriesController.php:95;95
+msgid "Invalid sub category"
+msgstr ""
+
+#: /Controller/SubCategoriesController.php:179;179
+msgid "Invalid id for sub category"
+msgstr ""
+
+#: /Controller/SubCategoriesController.php:185;185
+msgid "Sub category deleted"
+msgstr ""
+
+#: /Controller/SubCategoriesController.php:189;189
+msgid "Sub category was not deleted"
+msgstr ""
+
+#: /Controller/UsersController.php:52;52
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: /Controller/UsersController.php:95;95
+msgid "Successfully registered"
+msgstr ""
+
+#: /Controller/UsersController.php:103;103
+msgid "We encountered errors in the information\n              you submitted. Please check the fields marked below and try again."
+msgstr ""
+
+#: /Controller/UsersController.php:146;146
+msgid "Email or password is incorrect"
+msgstr ""
+
+#: /View/Categories/admin_add.ctp:8;8
+msgid "Add Category"
+msgstr ""
+
+#: /View/Categories/admin_add.ctp:17;17
+#: /View/Categories/admin_edit.ctp:33;33
+#: /View/ProductImages/admin_add.ctp:17;17
+#: /View/ProductImages/admin_edit.ctp:33;33
+#: /View/Products/admin_add.ctp:20;20
+#: /View/Products/admin_edit.ctp:21;21
+#: /View/SubCategories/admin_add.ctp:18;18
+#: /View/SubCategories/admin_edit.ctp:35;35
+msgid "Submit"
+msgstr ""
+
+#: /View/Categories/admin_add.ctp:23;23
+#: /View/Categories/admin_edit.ctp:40;40
+#: /View/Categories/admin_index.ctp:21;58;21;58
+#: /View/ProductImages/admin_add.ctp:23;23
+#: /View/ProductImages/admin_edit.ctp:39;39
+#: /View/ProductImages/admin_index.ctp:21;62;21;62
+#: /View/Products/admin_add.ctp:26;26
+#: /View/Products/admin_edit.ctp:27;27
+#: /View/Products/admin_index.ctp:36;94;36;94
+#: /View/SubCategories/admin_add.ctp:24;24
+#: /View/SubCategories/admin_edit.ctp:41;41
+#: /View/SubCategories/admin_index.ctp:26;72;26;72
+msgid "Actions"
+msgstr ""
+
+#: /View/Categories/admin_add.ctp:29;29
+#: /View/Categories/admin_edit.ctp:51;51
+msgid "List Categories"
+msgstr ""
+
+#: /View/Categories/admin_edit.ctp:8;8
+msgid "Edit Category"
+msgstr ""
+
+#: /View/Categories/admin_edit.ctp:46;46
+#: /View/Categories/admin_index.ctp:45;45
+#: /View/ProductImages/admin_edit.ctp:45;45
+#: /View/ProductImages/admin_index.ctp:48;48
+#: /View/Products/admin_edit.ctp:33;33
+#: /View/Products/admin_index.ctp:81;81
+#: /View/SubCategories/admin_edit.ctp:47;47
+#: /View/SubCategories/admin_index.ctp:59;59
+msgid "Delete"
+msgstr ""
+
+#: /View/Categories/admin_edit.ctp:46;46
+#: /View/Categories/admin_index.ctp:45;45
+#: /View/ProductImages/admin_edit.ctp:45;45
+#: /View/ProductImages/admin_index.ctp:48;48
+#: /View/Products/admin_edit.ctp:33;33
+#: /View/Products/admin_index.ctp:81;81
+#: /View/SubCategories/admin_edit.ctp:47;47
+#: /View/SubCategories/admin_index.ctp:59;59
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: /View/Categories/admin_index.ctp:4;4
+msgid "Categories"
+msgstr ""
+
+#: /View/Categories/admin_index.ctp:44;44
+#: /View/ProductImages/admin_index.ctp:47;47
+#: /View/Products/admin_index.ctp:78;78
+#: /View/SubCategories/admin_index.ctp:58;58
+msgid "Edit"
+msgstr ""
+
+#: /View/Categories/admin_index.ctp:64;64
+msgid "New Category"
+msgstr ""
+
+#: /View/Elements/admin_header.ctp:9;9
+msgid "Manage Categories"
+msgstr ""
+
+#: /View/Elements/admin_header.ctp:14;14
+msgid "Manage Sub Categories"
+msgstr ""
+
+#: /View/Elements/admin_header.ctp:19;19
+msgid "Manage Products"
+msgstr ""
+
+#: /View/Elements/admin_header.ctp:24;24
+msgid "Manage Product Images"
+msgstr ""
+
+#: /View/Elements/admin_header.ctp:29;29
+#: /View/Layouts/default.ctp:124;124
+msgid "Logout"
+msgstr ""
+
+#: /View/Elements/admin_header.ctp:39;39
+#: /View/Layouts/default.ctp:95;95
+#: /View/Users/login.ctp:5;5
+msgid "Login"
+msgstr ""
+
+#: /View/Elements/pagination.ctp:4;4
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: /View/Elements/pagination.ctp:11;11
+msgid "previous"
+msgstr ""
+
+#: /View/Elements/pagination.ctp:13;13
+msgid "next"
+msgstr ""
+
+#: /View/Elements/product_listing.ctp:45;45
+#: /View/Products/home.ctp:67;67
+msgid " .........click here to see more"
+msgstr ""
+
+#: /View/Elements/product_listing.ctp:66;66
+msgid "--No Results Found--"
+msgstr ""
+
+#: /View/Layouts/default.ctp:57;57
+msgid "What Are You Looking For : "
+msgstr ""
+
+#: /View/Layouts/default.ctp:70;70
+msgid "Welcome, "
+msgstr ""
+
+#: /View/Layouts/default.ctp:103;103
+msgid "Register"
+msgstr ""
+
+#: /View/Layouts/default.ctp:116;116
+#: /View/Products/product_details.ctp:23;23
+#: /View/Products/product_list.ctp:16;16
+#: /View/Products/sub_category_list.ctp:14;14
+msgid "Home"
+msgstr ""
+
+#: /View/ProductImages/admin_add.ctp:8;8
+msgid "Admin Add Product Image"
+msgstr ""
+
+#: /View/ProductImages/admin_add.ctp:29;29
+#: /View/ProductImages/admin_edit.ctp:50;50
+msgid "List Product Images"
+msgstr ""
+
+#: /View/ProductImages/admin_edit.ctp:8;8
+msgid "Admin Edit Product Image"
+msgstr ""
+
+#: /View/ProductImages/admin_index.ctp:4;4
+msgid "Product Images"
+msgstr ""
+
+#: /View/ProductImages/admin_index.ctp:68;68
+msgid "New Product Image"
+msgstr ""
+
+#: /View/Products/admin_add.ctp:8;8
+msgid "Add Product"
+msgstr ""
+
+#: /View/Products/admin_add.ctp:32;32
+#: /View/Products/admin_edit.ctp:38;38
+msgid "List Products"
+msgstr ""
+
+#: /View/Products/admin_edit.ctp:8;8
+msgid "Edit Product"
+msgstr ""
+
+#: /View/Products/admin_index.ctp:4;4
+#: /View/Products/product_list.ctp:20;20
+#: /View/Products/sub_category_list.ctp:93;93
+msgid "Products"
+msgstr ""
+
+#: /View/Products/admin_index.ctp:100;100
+msgid "New Product"
+msgstr ""
+
+#: /View/Products/home.ctp:19;19
+msgid "Recently Added Products"
+msgstr ""
+
+#: /View/Products/home.ctp:88;88
+msgid "--No Resutls Found--"
+msgstr ""
+
+#: /View/Products/product_details.ctp:44;44
+msgid "Product Details"
+msgstr ""
+
+#: /View/Products/search_result.ctp:14;14
+msgid "Search Results for  "
+msgstr ""
+
+#: /View/Products/sub_category_list.ctp:15;15
+#: /View/SubCategories/admin_index.ctp:4;4
+msgid "Sub Categories"
+msgstr ""
+
+#: /View/Products/sub_category_list.ctp:72;72
+msgid "--No Records Found--"
+msgstr ""
+
+#: /View/SubCategories/admin_add.ctp:8;8
+msgid "Admin Add Sub Category"
+msgstr ""
+
+#: /View/SubCategories/admin_add.ctp:30;30
+#: /View/SubCategories/admin_edit.ctp:52;52
+msgid "List Sub Categories"
+msgstr ""
+
+#: /View/SubCategories/admin_edit.ctp:8;8
+msgid "Admin Edit Sub Category"
+msgstr ""
+
+#: /View/SubCategories/admin_index.ctp:78;78
+msgid "New Sub Category"
+msgstr ""
+
+#: /View/Users/signup.ctp:4;4
+msgid "Registration"
+msgstr ""
+
+#: /View/Users/signup.ctp:38;38
+msgid "The characters you \n  type must match the characters in the picture. Please try again."
+msgstr ""
+
+#: /lib/Cake/Console/Templates/skel/View/Layouts/default.ctp:24
+#: /lib/Cake/Console/myapp/views/layouts/default.ctp:25
+msgid "CakePHP: the rapid development php framework:"
+msgstr ""
+
+#: /lib/Cake/Console/Templates/skel/View/Layouts/default.ctp:38;49
+#: /lib/Cake/Console/myapp/views/layouts/default.ctp:39;50
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: /lib/Cake/Console/myapp/views/pages/home.ctp:12
+msgid "Your tmp directory is writable."
+msgstr ""
+
+#: /lib/Cake/Console/myapp/views/pages/home.ctp:16
+msgid "Your tmp directory is NOT writable."
+msgstr ""
+
+#: /lib/Cake/Console/myapp/views/pages/home.ctp:26
+msgid "The %s is being used for caching. To change the config edit APP/config/core.php "
+msgstr ""
+
+#: /lib/Cake/Console/myapp/views/pages/home.ctp:30
+msgid "Your cache is NOT working. Please check the settings in APP/config/core.php"
+msgstr ""
+
+#: /lib/Cake/Console/myapp/views/pages/home.ctp:40
+msgid "Your database configuration file is present."
+msgstr ""
+
+#: /lib/Cake/Console/myapp/views/pages/home.ctp:45
+msgid "Your database configuration file is NOT present."
+msgstr ""
+
+#: /lib/Cake/Console/myapp/views/pages/home.ctp:47
+msgid "Rename config/database.php.default to config/database.php"
+msgstr ""
+
+#: /lib/Cake/Console/myapp/views/pages/home.ctp:64
+msgid "Cake is able to connect to the database."
+msgstr ""
+
+#: /lib/Cake/Console/myapp/views/pages/home.ctp:68
+msgid "Cake is NOT able to connect to the database."
+msgstr ""
+
+#: /lib/Cake/Console/myapp/views/pages/home.ctp:74
+#: /lib/Cake/Test/test_app/View/Pages/extract.ctp:14
+msgid "Editing this Page"
+msgstr ""
+
+#: /lib/Cake/Console/myapp/views/pages/home.ctp:77
+msgid "To change the content of this page, edit: %s\n\t\tTo change its layout, edit: %s\n\t\tYou can also add some CSS styles for your pages at: %s"
+msgstr ""
+
+#: /lib/Cake/Console/myapp/webroot/test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#: /lib/Cake/Test/Case/BasicsTest.php:366;440;510;539
+#: /lib/Cake/Test/Case/I18n/I18nTest.php:2685;2675
+msgid "Plural Rule 1"
+msgstr ""
+
+#: /lib/Cake/Test/Case/BasicsTest.php:370;514;543
+#: /lib/Cake/Test/Case/I18n/I18nTest.php:2708
+msgid "Plural Rule 1 (from core)"
+msgstr ""
+
+#: /lib/Cake/Test/Case/BasicsTest.php:374;518
+msgid "Some string with %s"
+msgstr ""
+
+#: /lib/Cake/Test/Case/BasicsTest.php:378;382;522;526
+msgid "Some string with %s %s"
+msgstr ""
+
+#: /lib/Cake/Test/Case/BasicsTest.php:386;390
+msgid "Testing %2$s %1$s"
+msgstr ""
+
+#: /lib/Cake/Test/Case/BasicsTest.php:394
+msgid "Testing %.2f number"
+msgstr ""
+
+#: /lib/Cake/Test/Case/BasicsTest.php:407;411;473;485;576
+#: /lib/Cake/Test/Case/I18n/I18nTest.php:2537;2541;2545;2697
+msgid "%d = 1"
+msgid_plural "%d = 0 or > 1"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /lib/Cake/Test/Case/BasicsTest.php:415;580
+#: /lib/Cake/Test/Case/I18n/I18nTest.php:2720
+msgid "%d = 1 (from core)"
+msgid_plural "%d = 0 or > 1 (from core)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /lib/Cake/Test/Case/BasicsTest.php:419
+msgid "%d item."
+msgid_plural "%d items."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /lib/Cake/Test/Case/BasicsTest.php:423;427
+msgid "%d item for id %s"
+msgid_plural "%d items for id %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /lib/Cake/Test/Case/I18n/I18nTest.php:2515
+msgid "No Translation needed"
+msgstr ""
+
+#: /lib/Cake/Test/Case/I18n/I18nTest.php:2526
+msgid "this is a \"quoted string\""
+msgstr ""
+
+#: /lib/Cake/Test/Case/I18n/I18nTest.php:2593;2608
+msgid "d_fmt"
+msgstr ""
+
+#: /lib/Cake/Test/Case/I18n/I18nTest.php:2597;2614
+msgid "am_pm"
+msgstr ""
+
+#: /lib/Cake/Test/Case/I18n/I18nTest.php:2601;2618
+msgid "abmon"
+msgstr ""
+
+#: /lib/Cake/Test/test_app/Plugin/TestPlugin/View/Elements/translate.ctp:1
+msgid "This is a translatable string"
+msgstr ""
+
+#: /lib/Cake/Test/test_app/View/Pages/extract.ctp:17
+msgid "Hot features!"
+msgstr ""
+
+#: /lib/Cake/Test/test_app/View/Pages/extract.ctp:6
+msgid "You have %d new message."
+msgid_plural "You have %d new messages."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /lib/Cake/Test/test_app/View/Pages/extract.ctp:7
+msgid "You deleted %d message."
+msgid_plural "You deleted %d messages."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /lib/Cake/Test/test_app/View/Pages/home.ctp:93
+msgid "PCRE has not been compiled with Unicode support."
+msgstr ""
+
+#: /lib/Cake/Test/test_app/View/Pages/home.ctp:95
+msgid "Recompile PCRE with Unicode support by adding <code>--enable-unicode-properties</code> when configuring"
+msgstr ""
+
+#: /lib/Cake/Test/test_app/View/Posts/cache_form.ctp:5
+msgid "Add User"
+msgstr ""
 
