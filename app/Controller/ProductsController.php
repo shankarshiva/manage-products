@@ -327,15 +327,15 @@ class ProductsController extends AppController
   	}
 
   	$categories = $this->Product->Category->find('list');
-  	
-  	if(isset($this->data['SubCategory']['id']) && !empty($this->data['SubCategory']['id']))
+  
+  	/* if(isset($this->data['SubCategory']['id']) && !empty($this->data['SubCategory']['id']))
   	{
   		$subCategories = $this->Product->SubCategory->find('list');
   	}
   	else
-  	{
+  	{ */
   		$firstCategories = $this->Product->Category->find('first');
-  		
+  	
   		// getting the subcategories for first category which is displaying by default
   		$subCategoriesArray = $this->Product->SubCategory->find('list',array('conditions'=>array('SubCategory.category_id'=>$firstCategories['Category']['id'])));
   		
@@ -344,7 +344,7 @@ class ProductsController extends AppController
   		{
   			$subCategories[$key] = $subCat;
   		}
-  	}
+  //	}
 
   	$this->set(compact('categories', 'subCategories'));
   }
@@ -400,6 +400,17 @@ class ProductsController extends AppController
 		echo $select;
 		exit;
 
+  }
+  
+  
+  function admin_cropImage()
+  {
+    // setting the layout for admin
+    $this->layout = 'admin';
+    
+    // Setting the page title
+    $this->set("title_for_layout","Image Crop");
+    
   }
 
 }

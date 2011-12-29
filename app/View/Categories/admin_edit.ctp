@@ -11,7 +11,7 @@
     <?php
       echo $this->Form->input('id');
       echo $this->Form->input('category_name');
-      echo $this->Form->input('image_name', array('type'=>'file'));
+      echo $this->Form->input('file_data', array('type'=>'file'));
    
       $categoryImage = '';
       $categoryName  = '';

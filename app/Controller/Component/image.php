@@ -60,7 +60,8 @@ class ImageComponent extends Object
       'image/gif', 
       'image/jpeg', 
       'image/pjpeg', 
-      'image/png', 
+      'image/png',
+      'images/x-png',
       'image/jpg'
     );
     

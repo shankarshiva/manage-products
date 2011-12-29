@@ -66,3 +66,12 @@ Cache::config('default', array('engine' => 'File'));
 
 define('HTTP_HOST','http://'.$_SERVER['HTTP_HOST'].'/manage-products');
 
+define('THUMBNAIL_IMAGE_WIDTH', 100);
+define('THUMBNAIL_IMAGE_HEIGHT', 100);
+
+define('DETAILS_IMAGE_WIDTH', 270);
+define('DETAILS_IMAGE_HEIGHT', 270);
+
+define('CROP_THUMBNAIL_WIDTH', 100);
+define('CROP_THUMBNAIL_HEIGHT', 100);
+

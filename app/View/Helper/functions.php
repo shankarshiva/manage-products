@@ -38,4 +38,18 @@ class FunctionsHelper extends AppHelper
 		
 	}
 	
+	// Fucntions
+	//You do not need to alter these functions
+	function getHeight($image) {
+	  $size = getimagesize($image);
+	  $height = $size[1];
+	  return $height;
+	}
+	//You do not need to alter these functions
+	function getWidth($image) {
+	  $size = getimagesize($image);
+	  $width = $size[0];
+	  return $width;
+	}
+	
 }

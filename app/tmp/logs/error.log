@@ -3549,3 +3549,182 @@
 2011-12-28 05:52:17 Error: [MissingControllerException] Controller class ImagesController could not be found.
 #0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2011-12-28 23:53:03 Error: [MissingActionException] Action ProductsController::admin_cropImage() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-28 23:53:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 00:08:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 00:08:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 00:08:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 00:08:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 00:08:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 00:08:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 00:18:01 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 00:18:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 00:19:32 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 00:19:32 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 00:41:12 Error: [MissingActionException] Action UsersController::admin_favicon.ico() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 00:41:37 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 00:42:22 Error: [MissingActionException] Action UsersController::admin_favicon.ico() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 00:43:12 Error: [MissingActionException] Action UsersController::admin_favicon.ico() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 00:57:48 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 00:57:48 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 00:57:58 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 00:57:58 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 01:40:57 Error: [MissingActionException] Action CategoriesController::admin_favicon.ico() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 02:21:57 Error: [MissingActionException] Action ProductsController::admin_favicon.ico() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 02:22:26 Error: [MissingActionException] Action ProductsController::admin_favicon.ico() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 02:26:28 Error: [MissingActionException] Action ProductImagesController::admin_favicon.ico() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ProductImagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 02:50:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 02:50:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 03:22:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 03:22:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 03:23:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 03:23:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 03:55:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 03:55:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 04:30:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 04:30:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 05:25:39 Error: [MissingControllerException] Controller class SubCategoryController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 05:25:40 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 05:53:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 05:54:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 05:54:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 05:54:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 05:54:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 06:27:19 Error: [MissingControllerException] Controller class ProductsImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 06:27:19 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 07:08:10 Error: [MissingActionException] Action ProductImagesController::admin_favicon.ico() could not be found.
+#0 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/manage-products/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ProductImagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-29 07:11:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 07:11:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 07:12:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 07:13:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 07:13:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 07:14:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-29 07:14:25 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /var/www/manage-products/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

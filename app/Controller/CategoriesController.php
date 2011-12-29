@@ -10,7 +10,8 @@ class CategoriesController extends AppController
 	 */
   
   public $components = array(
-    'Image'
+    'Image',
+	  'Upload'
   );
 
   /**
@@ -59,21 +60,65 @@ class CategoriesController extends AppController
   {
     $this->Category->create();
     
-    // uploading the files using component
-    $result = $this->Image->uploadFiles('img/small', 'img/big', $this->data['Category']);
+    // set the upload destination folder
+    $destination = realpath('img/small') . '/';
+    $destination1 = realpath('img/big') . '/';
+    	
+    // grab the file
+    $file = $this->data['Category']['file_data'];
     
-    // initialising the aray
-    $categoeryArray['Category'] = array();
-    
-    if (isset($result['urls']) && !empty($result['urls']))
+    // upload the image using the upload component
+    $result = $this->Upload->upload($file, $destination, null, array(
+        'type' => 'resizecrop',
+        'size' => array(
+            THUMBNAIL_IMAGE_WIDTH,
+            THUMBNAIL_IMAGE_HEIGHT
+        ),
+        'output' => 'jpg'
+    ));
+    	
+    // upload the image using the upload component
+    $result = $this->Upload->upload($file, $destination1, null, array(
+        'type' => 'resizecrop',
+        'size' => array(
+            DETAILS_IMAGE_WIDTH,
+            DETAILS_IMAGE_HEIGHT
+        ),
+        'output' => 'jpg'
+    ));
+    	
+    $errors = $this->Upload->errors;
+    	
+    if($errors)
     {
-      // setting the values into array
-      $categoeryArray['Category'] = array(
+      // display error
+      $errors = $this->Upload->errors;
+    
+      // piece together errors
+      if(is_array($errors)){
+        	
+        $errors = implode("<br />",$errors);
+      }
+    
+      $this->Session->setFlash($errors);
+      	
+      $this->redirect(array(
+          'controller' => 'Categories',
+          'action' => 'add',
+          'admin' => true
+      ));
+      exit();
+    }
+    else
+    {
+      $categoeryArray['Category'] = array();
+      // setting the vlaues into array.
+       $categoeryArray['Category'] = array(
         'category_name' => $this->data['Category']['category_name'], 
-        'category_image' => $result['uploaded_filename']
+        'category_image' => $this->Upload->result
       );
     }
-    
+
     if ((count($categoeryArray['Category']) > 0) &&
          $this->Category->save($categoeryArray))
         {
@@ -117,10 +162,72 @@ class CategoriesController extends AppController
     // initialising the array.
     $categoeryArray['Category'] = array();
     
-    if (isset($this->data['Category']['image_name']['name']) &&
-         !empty($this->data['Category']['image_name']['name']))
+    if (isset($this->data['Category']['file_data']['name']) &&
+         !empty($this->data['Category']['file_data']['name']))
         {
-          // uploading the files using component
+
+          // set the upload destination folder
+          $destination = realpath('img/small') . '/';
+          $destination1 = realpath('img/big') . '/';
+           
+          // grab the file
+          $file = $this->data['Category']['file_data'];
+          
+          // upload the image using the upload component
+          $result = $this->Upload->upload($file, $destination, null, array(
+              'type' => 'resizecrop',
+              'size' => array(
+                  THUMBNAIL_IMAGE_WIDTH,
+                  THUMBNAIL_IMAGE_HEIGHT
+              ),
+              'output' => 'jpg'
+          ));
+           
+          // upload the image using the upload component
+          $result = $this->Upload->upload($file, $destination1, null, array(
+              'type' => 'resizecrop',
+              'size' => array(
+                  DETAILS_IMAGE_WIDTH,
+                  DETAILS_IMAGE_HEIGHT
+              ),
+              'output' => 'jpg'
+          ));
+           
+          $errors = $this->Upload->errors;
+           
+          if($errors)
+          {
+            // display error
+            $errors = $this->Upload->errors;
+          
+            // piece together errors
+            if(is_array($errors)){
+               
+              $errors = implode("<br />",$errors);
+            }
+          
+            $this->Session->setFlash($errors);
+             
+            $this->redirect(array(
+                'controller' => 'Categories',
+                'action' => 'edit/'.$id,
+                'admin' => true
+            ));
+            exit();
+          }
+          else
+          {
+            $categoeryArray['Category'] = array();
+            // setting the vlaues into array.
+            $categoeryArray['Category'] = array(
+                'id' => $this->data['Category']['id'],
+                'category_name' => $this->data['Category']['category_name'],
+                'category_image' => $this->Upload->result
+            );
+          }
+          
+          
+         /*  // uploading the files using component
           $result = $this->Image->uploadFiles('img/small', 'img/big', $this->data['Category']);
           
           if (isset($result['urls']) && !empty($result['urls']))
@@ -143,7 +250,7 @@ class CategoriesController extends AppController
               'category_name' => $this->data['Category']['category_name'], 
               'category_image' => $result['uploaded_filename']
             );
-          }
+          } */
         }
         else
         {

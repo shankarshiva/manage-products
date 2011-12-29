@@ -10,7 +10,7 @@
     </legend>
     <?php
       echo $this->Form->input('id');
-      echo $this->Form->input('category_id');
+      echo $this->Form->input('category_id', array('onchange'=>'getSubCategories();'));
       echo $this->Form->input('sub_category_id');
       echo $this->Form->input('product_name');
       echo $this->Form->input('product_desc');
@@ -40,3 +40,7 @@
     </li>
   </ul>
 </div>
+
+<?php
+  echo $this->Html->script('add_product.js');
+?>

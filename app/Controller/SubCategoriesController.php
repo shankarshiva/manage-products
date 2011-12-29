@@ -10,7 +10,8 @@ class SubCategoriesController extends AppController
 	 */
 	
 	public $components = array(
-			'Image'
+			'Image',
+	    'Upload'	    
 	);
 	
 	/**
@@ -49,22 +50,67 @@ class SubCategoriesController extends AppController
 		{
 			$this->SubCategory->create();
 			
-			//  uploading the files to server
-			$result = $this->Image->uploadFiles('img/small', 'img/big', $this->data['SubCategory']);
 			
-			// initializing the array
-			$subCategoeryArray['SubCategory'] = array();
+			// set the upload destination folder
+			$destination = realpath('img/small') . '/';
+			$destination1 = realpath('img/big') . '/';
 			
-			if(isset($result['urls']) && !empty($result['urls']))
+			// grab the file
+			$file = $this->data['SubCategory']['file_data'];
+			
+			// upload the image using the upload component
+			$result = $this->Upload->upload($file, $destination, null, array(
+			    'type' => 'resizecrop',
+			    'size' => array(
+			        THUMBNAIL_IMAGE_WIDTH,
+			        THUMBNAIL_IMAGE_HEIGHT
+			    ),
+			    'output' => 'jpg'
+			));
+			
+			// upload the image using the upload component
+			$result = $this->Upload->upload($file, $destination1, null, array(
+			    'type' => 'resizecrop',
+			    'size' => array(
+			        DETAILS_IMAGE_WIDTH,
+			        DETAILS_IMAGE_HEIGHT
+			    ),
+			    'output' => 'jpg'
+			));
+			
+			$errors = $this->Upload->errors;
+			
+			if($errors)
 			{
-				// setting the values into array
-				$subCategoeryArray['SubCategory'] = array(
+			  // display error
+			  $errors = $this->Upload->errors;
+			   
+			  // piece together errors
+			  if(is_array($errors)){
+			
+			    $errors = implode("<br />",$errors);
+			  }
+			   
+			  $this->Session->setFlash($errors);
+			
+			  $this->redirect(array(
+			      'controller' => 'SubCategories',
+			      'action' => 'add',
+			      'admin' => true
+			  ));
+			  exit();
+			}
+			else
+			{
+			  $subCategoeryArray['SubCategory'] = array();
+			  // setting the vlaues into array.
+			  $subCategoeryArray['SubCategory'] = array(
 					'category_id'=>$this->data['SubCategory']['category_id'],
 					'sub_category_name'=>$this->data['SubCategory']['sub_category_name'],
-					'sub_image_name'=>$result['uploaded_filename']
+					'sub_image_name'=>$this->Upload->result
 				);
 			}
-		
+	
 			if((count($subCategoeryArray['SubCategory']) > 0) && $this->SubCategory->save($subCategoeryArray))
 			{
 				$this->Session->setFlash(__('The sub category has been saved', true));
@@ -105,31 +151,67 @@ class SubCategoriesController extends AppController
 			// initializing the array
 			$subCategoeryArray['SubCategory'] = array();
 			
-			if(isset($this->data['SubCategory']['image_name']['name'])
-					&& !empty($this->data['SubCategory']['image_name']['name']))
+			if(isset($this->data['SubCategory']['file_data']['name'])
+					&& !empty($this->data['SubCategory']['file_data']['name']))
 			{
-				$result = $this->Image->uploadFiles('img/small', 'img/big', $this->data['SubCategory']);
-			
-				if(isset($result['urls']) && !empty($result['urls']))
-				{
-					// Deleting the images
-					if(file_exists('img/small'.$subCategoryImageName))
-					{
-						@unlink('img/small'.$subCategoryImageName);
-					}
-					// Deleting the images
-					if(file_exists('img/big'.$subCategoryImageName))
-					{
-						@unlink('img/big'.$subCategoryImageName);
-					}
-					// setting the values into array
-					$subCategoeryArray['SubCategory'] = array(
+			  // set the upload destination folder
+			  $destination = realpath('img/small') . '/';
+			  $destination1 = realpath('img/big') . '/';
+			  	
+			  // grab the file
+			  $file = $this->data['SubCategory']['file_data'];		  
+			  
+			  // upload the image using the upload component
+			  $result = $this->Upload->upload($file, $destination, null, array(
+			      'type' => 'resizecrop',
+			      'size' => array(
+			          THUMBNAIL_IMAGE_WIDTH,
+			          THUMBNAIL_IMAGE_HEIGHT
+			      ),
+			      'output' => 'jpg'
+			  ));
+			  	
+			  // upload the image using the upload component
+			  $result = $this->Upload->upload($file, $destination1, null, array(
+			      'type' => 'resizecrop',
+			      'size' => array(
+			          DETAILS_IMAGE_WIDTH,
+			          DETAILS_IMAGE_HEIGHT
+			      ),
+			      'output' => 'jpg'
+			  ));
+
+			  $errors = $this->Upload->errors;
+			  
+			  if($errors)
+			  {
+			    // display error
+			    $errors = $this->Upload->errors;
+			     
+			    // piece together errors
+			    if(is_array($errors)){
+			      $errors = implode("<br />",$errors);
+			    }
+			     
+			    $this->Session->setFlash($errors);
+			  
+			    $this->redirect(array(
+			        'controller' => 'SubCategories',
+			        'action' => 'edit/'.$id,
+			        'admin' => true
+			    ));
+			    exit();
+			  }
+			  else
+			  {
+			    // setting the vlaues into array.
+			    $subCategoeryArray['SubCategory'] = array(
 						'id' => $this->data['SubCategory']['id'],
 						'category_id' => $this->data['SubCategory']['category_id'],
 						'sub_category_name' => $this->data['SubCategory']['sub_category_name'],
-						'sub_image_name' => $result['uploaded_filename']
+						'sub_image_name' => $this->Upload->result
 					);
-				}
+			  }
 			}
 			else  
 			{
@@ -141,7 +223,7 @@ class SubCategoriesController extends AppController
 					'sub_image_name' => $subCategoryImageName
 				);
 			}
-			
+		
 			if ($this->SubCategory->save($subCategoeryArray)) 
 			{
 				$this->Session->setFlash(__('The sub category has been saved', true));

@@ -4,6 +4,11 @@
 if($this->Session->read('AdminUser.id'))
 {
 ?>
+ <li>
+    <?php 
+      //echo $this->Html->link(__('Crom Images'), array('controller' => 'Products', 'action' => 'cropImage')); 
+    ?> 
+  </li>
   <li>
     <?php 
       echo $this->Html->link(__('Manage Categories'), array('controller' => 'Categories', 'action' => 'index')); 

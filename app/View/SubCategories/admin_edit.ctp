@@ -12,7 +12,7 @@
       echo $this->Form->input('id');
       echo $this->Form->input('category_id');
       echo $this->Form->input('sub_category_name');
-      echo $this->Form->input('image_name', array('type'=>'file'));
+      echo $this->Form->input('file_data', array('type'=>'file'));
       
       $subCategoryImage = '';
       $subCategoryName  = '';

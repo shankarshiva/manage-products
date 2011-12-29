@@ -16,6 +16,11 @@
           echo $this->Paginator->sort('image_name');
         ?>
       </th>
+      <th>
+        <?php 
+          echo __('Cropped Image');
+        ?>
+      </th>
       <th class="actions actionCenter" >
         <?php 
           echo __('Actions');
@@ -42,6 +47,17 @@
         echo $this->Html->image('small/'.$displayImage, array('alt'=> $productImage['Product']['product_name'], 'border' => '0'));
         ?>
         &nbsp;</td>
+        
+        <td>
+        <?php        
+        // Checking if image is exist or not
+        $cropped_image = 'thumbnail_'.$productImage['ProductImage']['image_name'];
+        $displayImage = $this->Functions->checkImageAvailability('img/crop_images', $cropped_image);
+
+        echo $this->Html->image('crop_images/'.$displayImage, array('alt'=> $productImage['Product']['product_name'], 'border' => '0'));
+        ?>
+        &nbsp;</td>
+        
         <td class="actions">
         <?php 
           echo $this->Html->link(__('Edit', true), array('action' => 'edit', $productImage['ProductImage']['id'])); 
