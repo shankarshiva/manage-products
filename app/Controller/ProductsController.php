@@ -321,30 +321,22 @@ class ProductsController extends AppController
   			$this->Session->setFlash(__('The product could not be saved. Please, try again.', true));
   		}
   	}
+  	
   	if (empty($this->data)) 
   	{
   		$this->data = $this->Product->read(null, $id);
   	}
-
+  	
   	$categories = $this->Product->Category->find('list');
   
-  	/* if(isset($this->data['SubCategory']['id']) && !empty($this->data['SubCategory']['id']))
-  	{
-  		$subCategories = $this->Product->SubCategory->find('list');
-  	}
-  	else
-  	{ */
-  		$firstCategories = $this->Product->Category->find('first');
-  	
-  		// getting the subcategories for first category which is displaying by default
-  		$subCategoriesArray = $this->Product->SubCategory->find('list',array('conditions'=>array('SubCategory.category_id'=>$firstCategories['Category']['id'])));
-  		
-  		$subCategories[] = 'Please select';
-  		foreach ($subCategoriesArray as $key => $subCat)
-  		{
-  			$subCategories[$key] = $subCat;
-  		}
-  //	}
+		// getting the subcategories for first category which is displaying by default
+		$subCategoriesArray = $this->Product->SubCategory->find('list',array('conditions'=>array('SubCategory.category_id'=>$this->data['Category']['id'])));
+		
+		$subCategories[] = 'Please select';
+		foreach ($subCategoriesArray as $key => $subCat)
+		{
+			$subCategories[$key] = $subCat;
+		}
 
   	$this->set(compact('categories', 'subCategories'));
   }
