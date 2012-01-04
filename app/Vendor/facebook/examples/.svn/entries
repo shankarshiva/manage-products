@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="3295"
+   repos="http://192.10.10.252/repos/passthenotes"
+   url="http://192.10.10.252/repos/passthenotes/app/vendors/facebook/examples"
+   last-author="sajith"
+   uuid="dc15bac7-8187-46ad-b232-2eb134283314"
+   committed-date="2011-10-19T19:21:26.448064Z"
+   kind="dir"
+   name=""
+   committed-rev="239"/>
+<entry
+   checksum="0a82f7d09fdffe62944b1e59a18c5f08"
+   last-author="sajith"
+   text-time="2011-10-19T19:21:26.000000Z"
+   committed-date="2011-10-19T19:21:26.448064Z"
+   kind="file"
+   name="example.php"
+   committed-rev="239"/>
+<entry
+   checksum="9262d04863a043caed7478fbede4208a"
+   last-author="sajith"
+   text-time="2011-10-19T19:21:26.000000Z"
+   committed-date="2011-10-19T19:21:26.448064Z"
+   kind="file"
+   name="with_js_sdk.php"
+   committed-rev="239"/>
+</wc-entries>

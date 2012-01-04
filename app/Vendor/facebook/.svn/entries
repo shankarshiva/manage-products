@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="3295"
+   repos="http://192.10.10.252/repos/passthenotes"
+   url="http://192.10.10.252/repos/passthenotes/app/vendors/facebook"
+   last-author="sajith"
+   uuid="dc15bac7-8187-46ad-b232-2eb134283314"
+   committed-date="2011-10-19T19:21:26.448064Z"
+   name=""
+   kind="dir"
+   committed-rev="239"/>
+<entry
+   checksum="31fce8336dd5a3f061686f19e19bd56d"
+   last-author="sajith"
+   text-time="2011-10-19T19:21:26.000000Z"
+   committed-date="2011-10-19T19:21:26.448064Z"
+   kind="file"
+   name="changelog.md"
+   committed-rev="239"/>
+<entry
+   name="examples"
+   kind="dir"/>
+<entry
+   checksum="5dcdf7cefe5dedc587db61de746b412b"
+   last-author="sajith"
+   text-time="2011-10-19T19:21:26.000000Z"
+   committed-date="2011-10-19T19:21:26.448064Z"
+   kind="file"
+   name="readme.md"
+   committed-rev="239"/>
+<entry
+   kind="dir"
+   name="src"/>
+<entry
+   name="tests"
+   kind="dir"/>
+</wc-entries>

@@ -44,8 +44,15 @@ class ProductsController extends AppController
 
   public function home()
   {
+
+    //echo "=====>>".$this->Auth->password('camo1234');
+
+    //e0fa21eb1d06c26085203004726a72a6713178e7 
+
     // Setting the page title
     $this->set("title_for_layout","Home");
+    
+    $this->set("select_menu","Home");
 
     // Getting all the categories
     $categoryList = $this->Category->getCategoryList();
@@ -172,6 +179,9 @@ class ProductsController extends AppController
     {
 	  	$this->redirect('home');
     }
+    
+    $this->set('productId', $productId);
+    
 
     // have to user before filter
     $whereCondition = " Product.id = '".$productId."' ";

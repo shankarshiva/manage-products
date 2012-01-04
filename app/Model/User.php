@@ -56,8 +56,12 @@ class User extends AppModel
 	
 	function beforeSave()
   {
-    $temp = $this->data['User']['pass_word'];
-    $this->data['User']['pass_word'] = AuthComponent::password($temp);
+    if(isset($this->data['User']['pass_word']))
+    {
+      $temp = $this->data['User']['pass_word'];
+      $this->data['User']['pass_word'] = AuthComponent::password($temp);
+    }
+    
     return true;
   }
 	

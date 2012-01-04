@@ -15,6 +15,14 @@
       echo $this->Html->script(array('jquery.min.1.7.1.js', 'product_search.js'));
     ?>
   </head>
+  
+  <?php
+  $makeSelected = ''; 
+  if(isset($select_menu) && !empty($select_menu))
+  {
+    $makeSelected = 'selected';
+  }
+  ?>
   <body>
     <div id="shopfriend">
       <div class="headerTop"></div>
@@ -106,12 +114,21 @@
       	}
       	else
       	{
+      	  $loggedUserId = AuthComponent::User('id');
       	  ?>
       	  <li class="home">
       	  <?php 
             echo $this->Html->link(__('Home', true), array(
               'controller'=>'Products',
               'action' => 'home')
+            );
+          ?>
+      	  </li>			
+      	  <li class="home">
+      	  <?php 
+            echo $this->Html->link(__('Edit Profile', true), array(
+              'controller'=>'Users',
+              'action' => 'editProfile/'.$loggedUserId)
             );
           ?>
       	  </li>			

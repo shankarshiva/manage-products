@@ -78,8 +78,8 @@
 			<input type="hidden" name="cropSubmit" value="TRUE" id="cropSubmit" />
 			<input type="hidden" name="orgImageName" value="<?php echo $large_image_name;?>" id="orgImageName" />
 			<br />
-			<strong>Selected Width:</strong> <input type="value" name="w" value="" id="w" size="5" style="width:10%"/>
-			<strong>Selected Height:</strong> <input type="value" name="h" value="" id="h" size="5" style="width:10%"/>
+			<strong>Selected Width:</strong> <input type="value" name="w" value="" id="w" size="5" style="width:10%" readonly />
+			<strong>Selected Height:</strong> <input type="value" name="h" value="" id="h" size="5" style="width:10%" readonly />
 			<input type="submit" name="upload_thumbnail" value="Crop Image" id="save_thumb"  />
 		</form>
 	</div>

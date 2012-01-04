@@ -1,0 +1,20 @@
+
+
+<script>
+
+alert('Reacehd here');
+var from = '<?php echo $from;?>';
+var id = '<?php echo $id;?>';
+if(from != 'select_plan' && from == 'google'){
+// if the user is already registered 
+	parent.window.opener.location.replace(root+'/users/desk/'+id);
+	self.close ();
+}
+else {
+//if the new registration
+	parent.window.opener.location.replace(root+'/upgrade/select_plan/'+id);
+	self.close ();
+}
+
+	</script>
+

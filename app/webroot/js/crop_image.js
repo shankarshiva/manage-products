@@ -66,9 +66,13 @@ function showCropSection(val)
 	{
 		$('#show_crop_section').show();
 	}
-	else
+	else if(val == 2)
 	{
 		location.href = baseAddr+'/admin/ProductImages/index';
+	}
+	else if(val == 3)
+	{
+		location.href = baseAddr+'/Products/home';
 	}
 
 }

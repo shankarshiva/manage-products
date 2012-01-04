@@ -98,3 +98,18 @@
     </tr>
   </table>
 </div>
+<script>
+var baseAddr = null;
+
+if( document.getElementsByTagName ) 
+{
+  var elems = document.getElementsByTagName( 'base' );
+
+  if( elems.length ) 
+  {
+	  baseAddr = elems[ 0 ].href;
+  }
+}
+parent.window.opener.location.replace(baseAddr+'/Products/home');
+self.close ();
+</script>

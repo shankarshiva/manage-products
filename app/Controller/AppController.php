@@ -70,7 +70,7 @@ class AppController extends Controller
     
     $this->Auth->loginRedirect = array(
         'controller' => 'Products',
-        'action' => 'home','admin'=>false
+        'action' => 'home'
     );
     $this->Auth->loginRedirect = array(
         'controller' => 'Products',
@@ -90,20 +90,6 @@ class AppController extends Controller
    * Load the Authentication
    *
    * @access public
-   */
-
-  /*
-   * function beforeFilter(){ //Set up Auth Component
-   * $this->Auth->allow('index','view'); $this->Auth->authError = 'Please login
-   * to view that page'; $this->Auth->loginError = 'Incorrect username /
-   * password combination'; //$this->Auth->loginAction = array('controller' =>
-   * 'Users', 'action' => 'login'); $this->Auth->loginRedirect =
-   * array('controller' => 'Products', 'display' => 'home');
-   * $this->Auth->logoutRedirect = array('controller' => 'Products', 'display'
-   * => 'home'); // Controller autorization is the simplest form.
-   * $this->Auth->authorize = 'controller'; // Additional criteria for loging.
-   * $this->Auth->userScope = array('User.active' => 1); //user needs to be
-   * active. }
    */
 
   function adminCheckLogin()

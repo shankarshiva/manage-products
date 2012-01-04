@@ -11,6 +11,9 @@ foreach ($productDetails as $product)
   $productPrice = $product['Product']['price'];
   $productImageArray = $product['ProductImage'];
 }
+
+$detailsUrl = HTTP_HOST.'/Products/productDetails/'.$productId;
+
 ?>
 <!-- Body Part Starts Here -->
 <div class="bodyPart" >
@@ -40,9 +43,33 @@ foreach ($productDetails as $product)
           echo $productName;
         ?>
       </div>
-      <div class="space5"></div>
-      <div class="pageHeading"><h1><?php echo __('Product Details'); ?></h1></div>
-      <div class="productHeading"><?php echo $productName;?></div>
+        <div class="space5"></div>
+        <table border="0" cellpadding="2" cellspacing="2" width="100%">
+          <tr>
+            <td width="50%">
+            <div class="pageHeading"><h1><?php echo __('Product Details'); ?></h1></div>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+            <div class="productHeading"><?php echo $productName;?></div>
+            </td>
+            <td class="facebookIcon">
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+            <a class="addthis_button_preferred_1"></a>
+            <a class="addthis_button_preferred_2"></a>
+            <a class="addthis_button_preferred_3"></a>
+            <a class="addthis_button_preferred_4"></a>
+            <a class="addthis_button_compact"></a>
+            <a class="addthis_counter addthis_bubble_style"></a>
+            </div>
+            <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-4f041bec25ab76c6&domready=1"></script>
+            <!-- AddThis Button END -->
+            </td>
+          </tr>
+        </table>
         <table border="0" cellpadding="2" cellspacing="2" width="100%">
           <tr>
             <td style="width:100px;" valign="top">

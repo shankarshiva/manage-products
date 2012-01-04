@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="3295"
+   repos="http://192.10.10.252/repos/passthenotes"
+   url="http://192.10.10.252/repos/passthenotes/app/vendors/facebook/src"
+   last-author="sajith"
+   uuid="dc15bac7-8187-46ad-b232-2eb134283314"
+   committed-date="2011-10-19T19:21:26.448064Z"
+   kind="dir"
+   name=""
+   committed-rev="239"/>
+<entry
+   checksum="9cd1ce9606d44fa33b5aa80d0872242f"
+   last-author="sajith"
+   text-time="2011-10-19T19:21:26.000000Z"
+   committed-date="2011-10-19T19:21:26.448064Z"
+   kind="file"
+   name="base_facebook.php"
+   committed-rev="239"/>
+<entry
+   checksum="9ca98ec14e2f3926ba89fcb753fbc598"
+   last-author="sajith"
+   text-time="2011-10-19T19:21:26.000000Z"
+   committed-date="2011-10-19T19:21:26.448064Z"
+   kind="file"
+   name="facebook.php"
+   committed-rev="239"/>
+<entry
+   checksum="c3055d03e94bbee13c7c6cc3a76083d9"
+   last-author="sajith"
+   text-time="2011-10-19T19:21:26.000000Z"
+   committed-date="2011-10-19T19:21:26.448064Z"
+   kind="file"
+   name="fb_ca_chain_bundle.crt"
+   committed-rev="239"/>
+</wc-entries>
