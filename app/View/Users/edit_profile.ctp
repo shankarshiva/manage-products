@@ -13,7 +13,6 @@
   <table class="userRightPart" width="100%" height="420" cellspacing="0" cellpadding="5" border="0">
     <tr>
       <td valign="top"> 
-        
         <?php
         echo $this->Form->create('User', array('enctype'=>'multipart/form-data'));
         echo $this->Form->input('id');
@@ -39,14 +38,14 @@
               Original Image
               </td>
               <td>
-              Cropped Imag
+              Cropped Image
               </td>
               <td>&nbsp;</td>
             </tr>
             <tr>
               <td>
               <?php
-                echo $this->Html->image('profile/small/'.$displayImage, array('alt'=> '', 'border' => '0'));
+                echo $this->Html->image('profile/small/'.$displayImage, array('alt'=> '', 'border' => '0', 'class'=>'profileImage'));
               ?>
               </td>
               <td>
@@ -54,7 +53,7 @@
               $cropped_image = 'thumbnail_'.$profileImage;
               $displayCropImage = $this->Functions->checkImageAvailability('img/crop_images', $cropped_image);
               
-              echo $this->Html->image('crop_images/'.$displayCropImage, array('alt'=> '', 'border' => '0'));
+              echo $this->Html->image('crop_images/'.$displayCropImage, array('alt'=> '', 'border' => '0', 'class'=>'profileImage'));
               ?>
               </td>
               <td valign="bottom" align="right"> <div class="submitButtonRight">   
@@ -99,11 +98,11 @@
       <div class="space20"></div>  
       <div style="display:none;" id="show_crop_section">
       <?php 
-        echo $this->Html->image('profile/'.$large_image_name, array('alt'=> 'Create Thumbnail', 'border' => '0','style'=>'float: left; margin-right: 10px;', 'id'=>'thumbnail'));
+        echo $this->Html->image('profile/'.$large_image_name, array('alt'=> 'Create Thumbnail', 'border' => '0', 'class'=>'profileOrgImage', 'id'=>'thumbnail'));
       ?>
   		<div style="border:1px #e5e5e5 solid; float:left; position:relative; overflow:hidden; width:<?php echo $thumb_width;?>px; height:<?php echo $thumb_height;?>px;">
   			<?php
-          echo $this->Html->image('profile/'.$large_image_name, array('alt'=> 'Thumbnail Preview', 'border' => '0','style'=>'position: relative;', 'id'=>'thumbnail'));
+          echo $this->Html->image('profile/'.$large_image_name, array('alt'=> 'Thumbnail Preview', 'border' => '0', 'class'=>'profileCropDemoImage', 'id'=>'thumbnail'));
         ?>
   		</div>
   		<br style="clear:both;"/>
@@ -132,9 +131,6 @@
 <div class="space10"></div>
 </div>
 <!-- Body Part  Ends Here -->        
-        
-        
 <?php
   echo $this->Html->script('crop_image.js');
-  //ff87ad09bbabaa6a45ae0bf2676a6f61c093f3a9
 ?>

@@ -1307,3 +1307,27 @@ label
 {
   text-align:right;
 }
+
+.profileImage
+{
+	border:1px solid #B0CBDE;
+	padding:1px;
+	background-color:#FFF;	
+}
+
+.profileOrgImage
+{
+	border:1px solid #B0CBDE;
+  padding:1px;
+  background-color:#FFF;
+	float: left; 
+	margin-right: 10px;	
+}
+
+.profileCropDemoImage
+{
+	border:1px solid #B0CBDE;
+  padding:1px;
+  background-color:#FFF;
+	position: relative;
+}

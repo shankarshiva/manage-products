@@ -1,2 +1,2 @@
-1325721230
-a:1:{s:4:"name";a:2:{i:570807527;s:17:"`manage_products`";i:3781846420;s:7:"`users`";}}
+1325724820
+a:2:{s:4:"name";a:11:{i:570807527;s:17:"`manage_products`";i:3781846420;s:7:"`users`";i:3939461121;s:11:"`User`.`id`";i:3283444176;s:13:"`User`.`name`";i:102459059;s:22:"`User`.`email_address`";i:2107279061;s:18:"`User`.`pass_word`";i:83137061;s:22:"`User`.`profile_image`";i:762020802;s:18:"`User`.`user_type`";i:656470031;s:21:"`User`.`created_date`";i:786993879;s:6:"`User`";i:3235509453;s:10:"`products`";}s:6:"fields";a:1:{s:32:"739b10d5cb8b709fb67ec3309a8ba94c";a:7:{i:0;s:11:"`User`.`id`";i:1;s:13:"`User`.`name`";i:2;s:22:"`User`.`email_address`";i:3;s:18:"`User`.`pass_word`";i:4;s:22:"`User`.`profile_image`";i:5;s:18:"`User`.`user_type`";i:6;s:21:"`User`.`created_date`";}}}
