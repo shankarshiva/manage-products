@@ -1,23 +1,14 @@
 <!-- Body Part Starts Here -->
 <?php echo $this->Html->css('form', true); 
-
-//$url = 'http://localhost/manage-products/Users/login/Facebook';
-$url = $facebookLoginUrl;
-
+  $url = $facebookLoginUrl;
 ?>
-
-<div class="loginHeading bigBg">
-  <a href="javascript:void(0);" onclick="javascript:facebookpopup('<?php echo $url?>');" class="facebookIcon" >
-  Login with <?php echo $this->Html->image('/images/facebook_icon.jpeg', array('alt'=> '', 'border' => '0', 'height'=>30, 'width'=>30));?> 
+<div class"space20"></div>
+<div class="loginHeading facebookIcon">
+  <a href="javascript:void(0);" onclick="javascript:facebookpopup('<?php echo $url?>');"  >
+  Login with <?php echo $this->Html->image('/images/facebook.png', array('alt'=> '', 'border' => '0', 'height'=>20, 'width'=>20));?> 
   </a>
 </div>
-<!-- 
-<div class="loginHeading bigBg">Log in or Signup with</div>
 
-<div class="signupLinks">
-  <a class="facebookIcon" onclick="javascript:facebookpopup('http://localhost/manage-products/Users/facebook');" href="javascript:void(0);"></a>
-</div>-->
-				
 <div id="users form">
   <?php echo $this->Form->create('User');?>
   <h1><?php echo __('Login'); ?></h1><br \>
@@ -30,7 +21,6 @@ $url = $facebookLoginUrl;
       ?>
      <input type="submit" value="Login" class="black_button">
      <br />
-     
 	<?php echo $this->Form->end(); ?>
 	<br clear="all">
 </div>

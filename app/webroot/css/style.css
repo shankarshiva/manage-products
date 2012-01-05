@@ -1236,7 +1236,8 @@ input.submit
 	font-size: 12px;
 }
 
-.loginHeading {
+.loginHeading 
+{
     color: #1F1F1F;
     font-size: 18px;
     font-weight: bold;
@@ -1244,11 +1245,13 @@ input.submit
     text-align: center;
 }
 
-.signupLinks a.facebookIcon {
+.signupLinks a.facebookIcon 
+{
     background: url("../images/login_sprite_bg.png") no-repeat scroll 0 -100px transparent;
 }
 
-.signupLinks a {
+.signupLinks a 
+{
     display: inline-block;
     float: inherit;
     height: 32px;
@@ -1256,14 +1259,12 @@ input.submit
     width: 32px;
 }
 
-.facebookIcon {
-    background: url("../images/sprite_bg.png") no-repeat scroll -270px -720px transparent;
-}
-
-.facebookIcon, .twitterIcon {
+.facebookIcon a
+{
     height: 16px;
     margin-right: 3px;
     width: 16px;
+    text-decoration:none;
 }
 
 label
@@ -1300,13 +1301,9 @@ label
 	float:left;
 }
 
-.facebookIcon
-{
-  align:right;
-	padding-left:200px;		
-}
 
-.submitButtonCenter
+
+.submitButtonRight
 {
-	text-align:center;
+  text-align:right;
 }
