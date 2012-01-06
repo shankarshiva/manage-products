@@ -401,10 +401,11 @@ class ProductsController extends AppController
 		$select .= '</select></div>';
 		echo $select;
 		exit;
-
   }
   
-  
+  /*  Function for cropping the image
+   *  
+  */
   function admin_cropImage()
   {
     // setting the layout for admin
